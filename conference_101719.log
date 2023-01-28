@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.13)  28 JAN 2023 11:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.13)  28 JAN 2023 16:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -387,36 +387,36 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 7
-7.
+9.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-77.
+79.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-77.
+79.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 77.
+(Font)              <10> on input line 79.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 77.
+(Font)              <7> on input line 79.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 77.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 77.
+(Font)              <5> on input line 79.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 79.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 77.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 79.
 
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -426,28 +426,28 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-112.
+114.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [2]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 202.
+(Font)              <8> on input line 204.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 202.
+(Font)              <6> on input line 204.
 <fig1.png, id=22, 82.1469pt x 71.5473pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 217.
+Package pdftex.def Info: fig1.png  used on input line 219.
 (pdftex.def)             Requested size: 82.14668pt x 71.5471pt.
 LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 2
-28.
+30.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 228.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 230.
 
 (./conference_101719.bbl
 Underfull \hbox (badness 2884) in paragraph at lines 86--88
@@ -455,12 +455,12 @@ Underfull \hbox (badness 2884) in paragraph at lines 86--88
 earn-ing the-ory\OT1/lmr/m/n/8 .
  []
 
-
+[3 <./fig1.png (PNG copy)>]
 Underfull \hbox (badness 1762) in paragraph at lines 105--107
 []\OT1/lmr/m/n/8 G. Huang, Y. Sun, Z. Liu, D. Se-dra, and K. Q. Wein-
  []
 
-[3 <./fig1.png (PNG copy)>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 134--136
 []\OT1/lmr/m/n/8 X. Gastaldi, ``Shake-shake reg-u-lar-iza-tion,'' \OT1/lmr/m/it
 /8 CoRR\OT1/lmr/m/n/8 , vol.
@@ -478,7 +478,7 @@ Underfull \hbox (badness 2318) in paragraph at lines 193--196
 
  []
 
-)
+[4])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -490,41 +490,43 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4] (./conference_101719.aux) ) 
+[5
+
+] (./conference_101719.aux) ) 
 Here is how much of TeX's memory you used:
  4937 strings out of 478268
  78766 string characters out of 5846347
- 397131 words of memory out of 5000000
+ 399622 words of memory out of 5000000
  23050 multiletter control sequences out of 15000+600000
  648343 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,62p,1404b,333s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf-dist/fonts/enc/dv
-ips/lm/lm-mathsy.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-
-rm.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr
-/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/tex
-live/2022/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2022/te
-xmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2022/texmf-dist/f
-onts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/
-public/lm/lmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/l
-mbxi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmcsc10.pf
-b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/lo
-cal/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive
-/2022/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2022/texmf
--dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts
-/type1/public/lm/lmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
-c/lm/lmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8.pf
-b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/lo
-cal/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri7.pfb></usr/local/texlive
-/2022/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texlive/2022/texmf
--dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2022/texmf-dist/font
-s/type1/public/lm/lmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pub
-lic/lm/lmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmtt
-10.pfb>
-Output written on conference_101719.pdf (4 pages, 394554 bytes).
+ 55i,11n,62p,1421b,333s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvip
+s/lm/lm-mathsy.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rm
+.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/l
+ocal/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texli
+ve/2022/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2022/texm
+f-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2022/texmf-dist/fon
+ts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pu
+blic/lm/lmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmb
+xi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2
+022/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2022/texmf-d
+ist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
+ype1/public/lm/lmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/
+lm/lmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8.pfb>
+</usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri7.pfb></usr/local/texlive/2
+022/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texlive/2022/texmf-d
+ist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/
+type1/public/lm/lmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
+c/lm/lmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmtt10
+.pfb>
+Output written on conference_101719.pdf (5 pages, 395476 bytes).
 PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 121 PDF objects out of 1000 (max. 8388607)
+ 74 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
