@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.13)  28 JAN 2023 10:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.13)  28 JAN 2023 11:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -421,21 +421,20 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 77.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+) [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
 112.
 
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
-]
+) [2]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 202.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 202.
- [2]
 <fig1.png, id=22, 82.1469pt x 71.5473pt>
 File: fig1.png Graphic file (type png)
 <use fig1.png>
@@ -495,11 +494,11 @@ Before submitting the final camera ready copy, remember to:
 Here is how much of TeX's memory you used:
  4937 strings out of 478268
  78766 string characters out of 5846347
- 395821 words of memory out of 5000000
+ 397131 words of memory out of 5000000
  23050 multiletter control sequences out of 15000+600000
  648343 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,62p,1217b,333s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 55i,11n,62p,1404b,333s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dv
 ips/lm/lm-mathsy.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-
 rm.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr
@@ -522,7 +521,7 @@ cal/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri7.pfb></usr/local/texlive
 s/type1/public/lm/lmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pub
 lic/lm/lmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmtt
 10.pfb>
-Output written on conference_101719.pdf (4 pages, 394041 bytes).
+Output written on conference_101719.pdf (4 pages, 394554 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream
