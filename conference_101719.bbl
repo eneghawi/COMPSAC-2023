@@ -36,4 +36,51 @@ Q.~Lu, L.~Zhu, X.~Xu, J.~Whittle, D.~Douglas, and C.~Sanderson, ``Software
   \url{https://arxiv.org/abs/2111.09478}
 \BIBentrySTDinterwordspacing
 
+\bibitem{catalogue}
+\BIBentryALTinterwordspacing
+Q.~Lu, L.~Zhu, X.~Xu, J.~Whittle, D.~Zowghi, and A.~Jacquet, ``Responsible ai
+  pattern catalogue: A multivocal literature review,'' 2022. [Online].
+  Available: \url{https://arxiv.org/abs/2209.04963}
+\BIBentrySTDinterwordspacing
+
+\bibitem{API}
+\BIBentryALTinterwordspacing
+F.~Hussain, R.~Hussain, B.~Noye, and S.~Sharieh, ``Enterprise {API} security
+  and {GDPR} compliance: Design and implementation perspective,'' \emph{CoRR},
+  vol. abs/1909.08048, 2019. [Online]. Available:
+  \url{http://arxiv.org/abs/1909.08048}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Shneiderman}
+\BIBentryALTinterwordspacing
+B.~Shneiderman, ``Bridging the gap between ethics and practice: Guidelines for
+  reliable, safe, and trustworthy human-centered ai systems,'' \emph{ACM Trans.
+  Interact. Intell. Syst.}, vol.~10, no.~4, oct 2020. [Online]. Available:
+  \url{https://doi.org/10.1145/3419764}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ShneidermanRespo}
+\BIBentryALTinterwordspacing
+------, ``Responsible ai: Bridging from ethics to practice,'' \emph{Commun.
+  ACM}, vol.~64, no.~8, p. 32–35, jul 2021. [Online]. Available:
+  \url{https://doi.org/10.1145/3445973}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Jana}
+\BIBentryALTinterwordspacing
+J.~S. Borg, ``Four investment areas for ethical ai: Transdisciplinary
+  opportunities to close the publication-to-practice gap,'' \emph{Big Data \&
+  Society}, vol.~8, no.~2, p. 20539517211040197, 2021. [Online]. Available:
+  \url{https://doi.org/10.1177/20539517211040197}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Hussain}
+W.~Hussain, M.~Shahin, R.~Hoda, J.~Whittle, H.~Perera, A.~Nurwidyantoro,
+  R.~Shams, and G.~Oliver, ``How can human values be addressed in agile
+  methods? a case study on safe,'' 02 2021.
+
+\bibitem{roadmap}
+Q.~Lu, L.~Zhu, X.~Xu, J.~Whittle, and Z.~Xing, ``Towards a roadmap on software
+  engineering for responsible ai,'' 03 2022.
+
 \end{thebibliography}
