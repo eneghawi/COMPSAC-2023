@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.13)  30 JAN 2023 00:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.13)  2 FEB 2023 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -386,11 +386,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<methodology.png, id=1, 701.62125pt x 289.08pt>
-File: methodology.png Graphic file (type png)
-<use methodology.png>
-Package pdftex.def Info: methodology.png  used on input line 67.
-(pdftex.def)             Requested size: 342.5602pt x 141.14316pt.
+<governance.jpeg, id=1, 1025.8325pt x 704.6325pt>
+File: governance.jpeg Graphic file (type jpg)
+<use governance.jpeg>
+Package pdftex.def Info: governance.jpeg  used on input line 67.
+(pdftex.def)             Requested size: 342.5602pt x 235.30342pt.
 
 [1{/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -442,23 +442,18 @@ LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line
 146.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [2] [3 <./methodology.png>]
+) [2] [3 <./governance.jpeg>]
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 236.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 236.
-<fig1.png, id=29, 82.1469pt x 71.5473pt>
-File: fig1.png Graphic file (type png)
-<use fig1.png>
-Package pdftex.def Info: fig1.png  used on input line 251.
-(pdftex.def)             Requested size: 82.14668pt x 71.5471pt.
 LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 2
-62.
+57.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 262.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 257.
 
 (./compsac2023.bbl)
 
@@ -472,40 +467,40 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4 <./fig1.png (PNG copy)>] (./compsac2023.aux) ) 
+[4] (./compsac2023.aux) ) 
 Here is how much of TeX's memory you used:
- 4893 strings out of 478268
- 77696 string characters out of 5846347
- 381601 words of memory out of 5000000
- 23006 multiletter control sequences out of 15000+600000
+ 4883 strings out of 478268
+ 77544 string characters out of 5846347
+ 382601 words of memory out of 5000000
+ 22996 multiletter control sequences out of 15000+600000
  648343 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,11n,62p,1415b,302s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/local/texlive/2022/texmf
--dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2022/texmf-dist/fonts/en
-c/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm
-/lm-rmtt.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.e
-nc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/loc
-al/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive
-/2022/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2022/texmf
--dist/fonts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts
-/type1/public/lm/lmbxi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pu
-blic/lm/lmcsc10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/l
-mmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb><
-/usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/
-texlive/2022/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/202
-2/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2022/texmf-dist
-/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1
-/public/lm/lmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/l
-mri10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri7.pfb><
-/usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/
-texlive/2022/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/20
-22/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2022/texmf-di
-st/fonts/type1/public/lm/lmtt10.pfb>
-Output written on compsac2023.pdf (4 pages, 437313 bytes).
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm
+/lm-rm.enc}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
+}{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/local
+/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2
+022/texmf-dist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2022/texmf-di
+st/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/t
+ype1/public/lm/lmbx8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public
+/lm/lmbx9.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmbxi10
+.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></us
+r/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/te
+xlive/2022/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2022/
+texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2022/texmf-dist/
+fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1
+/public/lm/lmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/l
+mr7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmr8.pfb></us
+r/local/texlive/2022/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/te
+xlive/2022/texmf-dist/fonts/type1/public/lm/lmri7.pfb></usr/local/texlive/2022/
+texmf-dist/fonts/type1/public/lm/lmri8.pfb></usr/local/texlive/2022/texmf-dist/
+fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type
+1/public/lm/lmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/lm
+/lmtt10.pfb>
+Output written on compsac2023.pdf (4 pages, 691924 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
