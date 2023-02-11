@@ -97,4 +97,12 @@ A.~Jobin, M.~Ienca, and E.~Vayena, ``Artificial intelligence: the global
   [Online]. Available: \url{http://arxiv.org/abs/1906.11668}
 \BIBentrySTDinterwordspacing
 
+\bibitem{mlops-without}
+\BIBentryALTinterwordspacing
+P.~Ruf, M.~Madan, C.~Reich, and D.~Ould-Abdeslam, ``Demystifying mlops and
+  presenting a recipe for the selection of open-source tools,'' \emph{Applied
+  Sciences}, vol.~11, no.~19, 2021. [Online]. Available:
+  \url{https://www.mdpi.com/2076-3417/11/19/8861}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}
