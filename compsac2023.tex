@@ -112,16 +112,39 @@ XAI and RAI connector (XRc) can play a crucial role in connecting team-level gov
 By introducing XRc into the MLOps, organizations can bridge the gap between team-level governance and organization-level governance implementation in MLOps. This helps to ensure that AI systems are used in a responsible and ethical manner, while also providing a clear and transparent explanation of their decision-making process.
 
 \section{Background on MLOps Workflow Stages}
-Constructing a machine learning pipeline can be a challenging endeavor. The pipeline is often constructed incrementally with the assistance of tools that have limited integration capabilities. MLOps seeks to streamline this process by automating the pipeline. It serves as a combination of machine learning, data engineering, and DevOps practices, essentially streamlining and accelerating the operationalization of an ML model (including building, testing, and releasing) by incorporating DevOps practices into the process. Determining which stage should be executed by which actor in the MLOps pipeline is not a straightforward task, and often requires multiple iterations to arrive at a suitable solution. However, through the examination of multiple studies, four major stages have been identified and developed. Mainly, here are the common phases:
+Constructing a machine learning pipeline can be a challenging endeavor. The pipeline is often constructed incrementally with the assistance of tools that have limited integration capabilities. MLOps seeks to streamline this process by automating the pipeline. It serves as a combination of machine learning, data engineering, and DevOps practices, essentially streamlining and accelerating the operationalization of an ML model (including building, testing, and releasing) by incorporating DevOps practices into the process. Determining which stage should be executed by which actor in the MLOps pipeline is not a straightforward task, and often requires multiple iterations to arrive at a suitable solution. However, through the examination of multiple studies, four major stages have been identified. Subsequently, we will outline each component in detail for that particular stage.
+\paragraph{Data Management Phase} Maintaining the overall quality of project-specific data can be challenging due to restrictions posed by domain-specific limitations. These limitations can affect the consistency of the relationships between attributes, the accuracy of historical records, and the reliability of state transitions. To ensure that the data models are accurate and aligned with the goals and KPIs of the project, subject-specific experts such as domain experts play a crucial role. These experts provide the necessary problem-specific questions and objectives, as well as KPIs for the data models. Additionally, they are responsible for validating the potential data and machine learning models to ensure that they meet the requirements of the project.
 
-\section{XAI and RAI Connector(XRc)}
-Incorporating XRc into the MLOps pipeline may result in additional overhead, but it ultimately serves as a valuable addition to the overall process. Adding XAI and RAI connectors to the pipeline not only reduces the risk of failure in responsible AI, but it also helps to prevent the repetition of work by enabling early detection of any issues.
+In some organizations, Data Stewardship is a key entity responsible for overseeing data throughout the various stages of a project. With a focus on Data Quality Management and governance, various roles such as chief, business, and technical data stewards, as well as a data quality board, have been defined to guide the data governance framework of the organization. The Data Stewardship plays an important role in maintaining resulting data, particularly when planning or wrapping up a project, often through a Data Management Plan (DMP).
+\paragraph{ML Preparation Phase} This set of functions in the ML preparation stage deals with classic ML preprocessing tasks. Data quality is important and ensured by various roles with the help of data engineers and stewards. Implementing the ML model requires collaboration between data scientists, domain experts, and those responsible for defining the problem within the domain. In summary, here are the functions in the ML preparation phase:
+\begin{itemize}
+	\item ML Data Acquisition: The ML pipeline is fed with relevant data based on the prior declared data management plan and selection by the data engineer.
+	\item Data Cleaning and Labeling: The input data is cleaned and labeled for ML operations with the help of data scientists and domain experts.
+	\item Data Versioning: The separation of test, training, and validation data sets is crucial for the success of ML models and is achieved through data versioning.
+\end{itemize}
+
 \begin{figure*}[h!]
 	\centering
 	\includegraphics[width=0.8\textwidth]{ML-OPS_with_XAI.png}
 	\caption{Transition from traditional to the current approach}
 	\label{ReMixMatch}
 \end{figure*}
+\paragraph{ML Training Phase}
+The role of data scientists is crucial in the ML Pipeline Phase. They ensure the flexibility, scalability, and proper technology selection of the ML pipeline, while also working to improve model performance. They select the ML pipeline structure, algorithms, and hyperparameters through model versioning and validation, and are the main users in data processing for big data projects. AutoML techniques and tools support data scientists and domain experts in efficiently selecting the ML pipeline and training the model. The process includes automation of feature preprocessing, model selection, and hyperparameter optimizationa. To sum up, the following functions are performed in the ML preparation phase:
+\begin{itemize}
+	\item Pipeline Structure Search: The structure of an ML pipeline depends on the type of data (structured or unstructured) and the technique used to solve the problem (supervised, unsupervised, or semi-supervised learning). The specific performance metrics to be used must also be defined based on the specific domain-specific requirements of the problem being solved.
+	\item Algorithm and Hyperparameter Selection: The choice of the most suitable ML algorithm for a problem is made by data scientists. The algorithm's performance can be improved by adjusting its hyperparameters, such as the number of layers in a neural network. However, this process can be time-consuming and complex which addressed by AutoML.
+	\item Model Versioning: It is a way to keep track of the interdependencies between an ML model, its data, framework, and modeling procedure. It is important for reverting to previous models if there is a problem in production and for deploying the correct version at the right time. Model versioning increases accountability and is an essential component for managing complex ML models.
+\end{itemize}
+\paragraph{Deployment Phase} The deployment stage is a pivotal moment in the MLOps process. During this phase, software engineers are responsible for incorporating the approved models into the corresponding applications and ensuring the smooth operation of the entire system. To maintain this stability, MLOps engineers must continuously monitor the model, the application as a whole, and the data being used. Another key player in this phase is the DevOps engineer, who is in charge of constructing, testing, and deploying the functioning system. In general, it is characterized by the following tasks:
+\begin{itemize}
+	\item Integration of validated models into the relevant applications by software engineers.
+	\item Maintenance of the operational stability of the entire system by MLOps engineers through continuous monitoring of the model, application, and data.
+	\item Construction, testing, and deployment of the functioning system by DevOps engineers.
+\end{itemize}
+
+\section{XAI and RAI Connector(XRc)}
+Incorporating XRc into the MLOps pipeline may result in additional overhead, but it ultimately serves as a valuable addition to the overall process. Adding XAI and RAI connectors to the pipeline not only reduces the risk of failure in responsible AI, but it also helps to prevent the repetition of work by enabling early detection of any issues.
 
 \subsection{Figures and Tables}
 \paragraph{Positioning Figures and Tables} Place figures and tables at the top and 

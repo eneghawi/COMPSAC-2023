@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.17)  11 FEB 2023 10:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.17)  12 FEB 2023 08:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -438,26 +438,37 @@ Overfull \hbox (2.47778pt too wide) in paragraph at lines 81--85
 <ML-OPS_with_XAI.png, id=21, 2270.4825pt x 1514.65875pt>
 File: ML-OPS_with_XAI.png Graphic file (type png)
 <use ML-OPS_with_XAI.png>
-Package pdftex.def Info: ML-OPS_with_XAI.png  used on input line 120.
+Package pdftex.def Info: ML-OPS_with_XAI.png  used on input line 128.
 (pdftex.def)             Requested size: 412.80157pt x 275.37712pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[3]
+Underfull \hbox (badness 2261) in paragraph at lines 135--136
+\OT1/lmr/m/n/10 the prob-lem (su-per-vised, un-su-per-vised, or semi-
+ []
 
-LaTeX Warning: Reference `fig' on page 3 undefined on input line 131.
 
+Underfull \vbox (badness 1675) has occurred while \output is active []
+
+
+
+LaTeX Warning: Reference `fig' on page 4 undefined on input line 155.
+
+[4 <./ML-OPS_with_XAI.png>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 136.
+(Font)              <8> on input line 160.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 136.
+(Font)              <6> on input line 160.
 LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 1
-57.
-(/usr/share/texmf/tex/latex/lm/omslmr.fd
+81.
+ (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 157.
- [3] (./compsac2023.bbl)
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 181.
+
+(./compsac2023.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -469,7 +480,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4 <./ML-OPS_with_XAI.png>] (./compsac2023.aux)
+[5] (./compsac2023.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -477,7 +488,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  4850 strings out of 478287
  76437 string characters out of 5849289
- 381197 words of memory out of 5000000
+ 383360 words of memory out of 5000000
  22954 multiletter control sequences out of 15000+600000
  648032 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -495,10 +506,10 @@ share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/te
 xmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 sy7.pfb>
-Output written on compsac2023.pdf (4 pages, 649289 bytes).
+Output written on compsac2023.pdf (5 pages, 655229 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 62 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
