@@ -158,7 +158,7 @@ For example, in the scikit-learn library, you can use the `LogisticRegression` c
 	\item Examining the model's performance: This involves evaluating the model's performance on a known dataset and determining the type of model based on the performance metrics and results obtained.
 \end{itemize}
 
-The two dynamic methods can be useful in different scenarios, and the choice of method will depend on the specific requirements of your use case. For example, if you have access to the model's API or functions, examining the API or functions might be the easiest and most straightforward way to determine the type of model. If you don't have access to the API or functions, evaluating the model's performance on a known dataset might be the only option available.
+The two dynamic methods can be useful in different scenarios, and the choice of method will depend on the specific requirements of the use case. For example, if you have access to the model's API or functions, examining the API or functions might be the easiest and most straightforward way to determine the type of model. If you don't have access to the API or functions, evaluating the model's performance on a known dataset might be the only option available.
 
 \subsection{XAI techniques Implementation}
 XAI techniques is implemented by AI/MLOps engineers taking into consideration the ML algorithm and the different audiences. It may require a trade-off between technical detail and simplicity, transparency and fairness, and other factors.
@@ -168,6 +168,16 @@ XAI techniques is implemented by AI/MLOps engineers taking into consideration th
 	\item Regulators: It may require explanations of the decisions made by a machine learning model to ensure that the model is fair, transparent, and in compliance with regulations and ethical standards. XAI techniques designed for this audience might include model-agnostic techniques, such as LIME or SHAP, that provide explanations for the predictions made by any machine learning model.
 \end{itemize}
 \paragraph{ML algorithm evaluation} Since some techniques can be used and integrated together, AI/MLOps engineer have to consider the broad range of XAI techniques. Those methods can be categorized into the following categories:
+Model-Agnostic Techniques: Model-agnostic XAI techniques are techniques that can be applied to any machine learning model, regardless of the underlying algorithm or architecture. Examples of model-agnostic XAI techniques include LIME and SHAP.
+\begin{itemize}
+	\item Model-Specific Techniques: Model-specific XAI techniques are techniques that are designed specifically for a particular type of machine learning model, such as decision trees or neural networks. Examples of model-specific XAI techniques include saliency maps for neural networks and decision trees for decision trees.
+
+	\item Post-Hoc Techniques: Post-hoc XAI techniques are techniques that are applied to a trained machine learning model after it has been trained, in order to provide explanations for its decisions and actions. Examples of post-hoc XAI techniques include LIME, SHAP, and saliency maps.
+
+	\item Integrative Techniques: Integrative XAI techniques are techniques that involve integrating XAI into the training process of a machine learning model, so that explanations can be generated as part of the model's normal operation.
+\end{itemize}
+
+These categories are not mutually exclusive and some XAI techniques may fall into multiple categories. The choice of XAI technique will depend on the specific requirements of the use case and the type of model being used.
 
 \paragraph{Positioning Figures and Tables} Place figures and tables at the top and 
 bottom of columns. Avoid placing them in the middle of columns. Large 
