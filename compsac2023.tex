@@ -147,8 +147,21 @@ The role of data scientists is crucial in the ML Pipeline Phase. They ensure the
 The integration of XRc into the MLOps pipeline may come with added overhead, however, it proves to be a valuable addition to the process as a whole. The addition of XRc not only reduces the risk of failure in responsible AI, but it also promotes efficiency by allowing for early detection of any problems with implementing organizational-level governance. This helps to avoid duplicating efforts and ensures that the responsible AI is being developed effectively. As shown in Figure \ref{XRc-phase}, XRc has been inserted between the ML pipeline phase and the ML deployment phase in order to analyze the changes before migrating into the application incorporating the organization level governance into the process. Let's now delve into the sub-phases of XRc.
 
 \subsection{Model Type Identification}
- In code, the type of machine learning model can be identified by examining the architecture, algorithms, and libraries used to implement the model. Understanding the architecture of the model, such as the number of hidden layers or the presence of decision trees, can give you a good indication of the type of machine learning model used. Additionally, many machine learning libraries provide pre-built models with clear documentation that specify the type of model being used. The documentation for these libraries usually clearly states the type of model being used. 
-For example, in the scikit-learn library, you can use the LogisticRegression class for logistic regression, which is a supervised learning algorithm, or the KMeans class for k-means clustering, which is an unsupervised learning algorithm.
+Both dynamic and static methods can be used to identify the type of machine learning model, with dynamic methods involving examination of the model's API or performance, and static methods involving examination of the code and architecture used to implement the model.
+\paragraph{Static Method} In code, the type of machine learning model can be identified by examining the architecture, algorithms, and libraries used to implement the model. Understanding the architecture of the model, such as the number of hidden layers or the presence of decision trees, can give you a good indication of the type of machine learning model used. Additionally, many machine learning libraries provide pre-built models with clear documentation that specify the type of model being used. The documentation for these libraries usually clearly states the type of model being used. 
+For example, in the scikit-learn library, you can use the `LogisticRegression` class for logistic regression, which is a supervised learning algorithm, or the `KMeans` class for k-means clustering, which is an unsupervised learning algorithm.
+\paragraph{Dynamic Method}There are two main ways to dynamically detect the type of machine learning model:
+
+\begin{itemize}
+	\item Examining the model's API or functions: This involves looking at the functions that the model exposes, such as the `predict` function, and determining the type of model based on the inputs and outputs of the function.
+
+	\item Examining the model's performance: This involves evaluating the model's performance on a known dataset and determining the type of model based on the performance metrics and results obtained.
+\end{itemize}
+
+The two dynamic methods can be useful in different scenarios, and the choice of method will depend on the specific requirements of your use case. For example, if you have access to the model's API or functions, examining the API or functions might be the easiest and most straightforward way to determine the type of model. If you don't have access to the API or functions, evaluating the model's performance on a known dataset might be the only option available.
+
+\subsection{XAI techniques Implementation}
+
 \paragraph{Positioning Figures and Tables} Place figures and tables at the top and 
 bottom of columns. Avoid placing them in the middle of columns. Large 
 figures and tables may span across both columns. Figure captions should be 
