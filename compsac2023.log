@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.17)  12 FEB 2023 15:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.17)  12 FEB 2023 17:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -457,22 +457,26 @@ Underfull \hbox (badness 3029) in paragraph at lines 165--167
 u-di-ences is
  []
 
-
-LaTeX Warning: Reference `fig' on page 5 undefined on input line 187.
-
 [5]
+Underfull \hbox (badness 3482) in paragraph at lines 184--185
+[]\OT1/lmr/m/n/10 Defining the re-quire-ments: AI/MLOps en-gi-neers
+ []
+
+
+LaTeX Warning: Reference `fig' on page 6 undefined on input line 195.
+
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 192.
+(Font)              <8> on input line 200.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 192.
+(Font)              <6> on input line 200.
 LaTeX Font Info:    Trying to load font information for OMS+lmr on input line 2
-13.
- (/usr/share/texmf/tex/latex/lm/omslmr.fd
+21.
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 213.
- (./compsac2023.bbl)
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 221.
+ (./compsac2023.bbl [6])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -484,7 +488,9 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[6] (./compsac2023.aux)
+[7
+
+] (./compsac2023.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -492,7 +498,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  4850 strings out of 478287
  76436 string characters out of 5849289
- 382359 words of memory out of 5000000
+ 386359 words of memory out of 5000000
  22954 multiletter control sequences out of 15000+600000
  648032 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -510,10 +516,10 @@ share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/te
 xmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 sy7.pfb>
-Output written on compsac2023.pdf (6 pages, 661581 bytes).
+Output written on compsac2023.pdf (7 pages, 663726 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 112 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
