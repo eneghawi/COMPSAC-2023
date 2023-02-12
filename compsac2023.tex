@@ -161,12 +161,13 @@ For example, in the scikit-learn library, you can use the `LogisticRegression` c
 The two dynamic methods can be useful in different scenarios, and the choice of method will depend on the specific requirements of your use case. For example, if you have access to the model's API or functions, examining the API or functions might be the easiest and most straightforward way to determine the type of model. If you don't have access to the API or functions, evaluating the model's performance on a known dataset might be the only option available.
 
 \subsection{XAI techniques Implementation}
-XAI techniques is implemented by AI/MLOps Engineers taking into consideration the ML algorithm and the different audiences. It may require a trade-off between technical detail and simplicity, transparency and fairness, and other factors. While the audiences is mainly at the organization level, AI/MLOps Engineers can categories their audience into two:
-
+XAI techniques is implemented by AI/MLOps engineers taking into consideration the ML algorithm and the different audiences. It may require a trade-off between technical detail and simplicity, transparency and fairness, and other factors.
+\paragraph{Audience evaluation} While the audiences is mainly at the organization level, AI/MLOps Engineers can categories their audience into two:
 \begin{itemize}
 	\item End Users: It may require simple and understandable explanations of the decisions made by a machine learning model. XAI techniques designed for this audience might include rule-based systems, decision trees, or prototype-based explanations that provide examples that are representative of the decisions made by a machine learning model.
 	\item Regulators: It may require explanations of the decisions made by a machine learning model to ensure that the model is fair, transparent, and in compliance with regulations and ethical standards. XAI techniques designed for this audience might include model-agnostic techniques, such as LIME or SHAP, that provide explanations for the predictions made by any machine learning model.
 \end{itemize}
+\paragraph{ML algorithm evaluation} Since some techniques can be used and integrated together, AI/MLOps engineer have to consider the following methods:
 
 \paragraph{Positioning Figures and Tables} Place figures and tables at the top and 
 bottom of columns. Avoid placing them in the middle of columns. Large 
