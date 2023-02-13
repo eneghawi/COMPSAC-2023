@@ -258,4 +258,44 @@ I.~Guzey, O.~Ucar, N.~A. Ciftdemir, and B.~Acunas, ``Context-dependent
   \url{https://arxiv.org/abs/2212.08821}
 \BIBentrySTDinterwordspacing
 
+\bibitem{mehmood2021concept}
+H.~Mehmood, P.~Kostakos, M.~Cortes, T.~Anagnostopoulos, S.~Pirttikangas, and
+  E.~Gilman, ``Concept drift adaptation techniques in distributed environment
+  for real-world data streams,'' \emph{Smart Cities}, vol.~4, no.~1, pp.
+  349--371, 2021.
+
+\bibitem{automl}
+F.~Hutter, L.~Kotthoff, and J.~Vanschoren, Eds., \emph{Automatic Machine
+  Learning: Methods, Systems, Challenges}.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer, 2019.
+
+\bibitem{feurer_auto_2019}
+M.~Feurer, A.~Klein, K.~Eggensperger, J.~T. Springenberg, M.~Blum, and
+  F.~Hutter, ``Auto-sklearn: Efficient and robust automated machine learning,''
+  F.~Hutter, L.~Kotthoff, and J.~Vanschoren, Eds.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer, 2019, pp. 123--143.
+
+\bibitem{muralidhar2021using}
+N.~Muralidhar, S.~Muthiah, P.~Butler, M.~Jain, Y.~Yu, K.~Burne, W.~Li,
+  D.~Jones, P.~Arunachalam, H.~S. McCormick \emph{et~al.}, ``Using antipatterns
+  to avoid mlops mistakes,'' \emph{arXiv preprint arXiv:2107.00079}, 2021.
+
+\bibitem{granlund2021mlops}
+T.~Granlund, A.~Kopponen, V.~Stirbu, L.~Myllyaho, and T.~Mikkonen, ``Mlops
+  challenges in multi-organization setup: Experiences from two real-world
+  cases,'' in \emph{2021 IEEE/ACM 1st Workshop on AI Engineering-Software
+  Engineering for AI (WAIN)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2021, pp. 82--88.
+
+\bibitem{tamburri2020sustainable}
+D.~A. Tamburri, ``Sustainable mlops: Trends and challenges,'' in \emph{2020
+  22nd international symposium on symbolic and numeric algorithms for
+  scientific computing (SYNASC)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2020, pp. 17--23.
+
+\bibitem{mons2018data}
+B.~Mons, \emph{Data stewardship for open science: Implementing FAIR
+  principles}.\hskip 1em plus 0.5em minus 0.4em\relax Chapman and Hall/CRC,
+  2018.
+
 \end{thebibliography}
