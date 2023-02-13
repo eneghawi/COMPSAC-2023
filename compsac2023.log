@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.17)  12 FEB 2023 23:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.17)  12 FEB 2023 23:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -469,7 +469,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 194.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 194.
-[6] [7] (./compsac2023.bbl [8]
+
+Underfull \vbox (badness 1430) has occurred while \output is active []
+
+ [6]
+[7] (./compsac2023.bbl [8]
 Underfull \hbox (badness 6284) in paragraph at lines 199--203
 []\OT1/lmr/m/n/8 F. Pe-dregosa, G. Varo-quaux, A. Gram-fort, V. Michel,
  []
@@ -499,8 +503,8 @@ Before submitting the final camera ready copy, remember to:
 [9] (./compsac2023.aux) ) 
 Here is how much of TeX's memory you used:
  4870 strings out of 478287
- 76909 string characters out of 5849289
- 390125 words of memory out of 5000000
+ 76875 string characters out of 5849289
+ 390115 words of memory out of 5000000
  22977 multiletter control sequences out of 15000+600000
  648032 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -515,7 +519,7 @@ b></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/typ
 e1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/
 share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmsy7.pfb>
-Output written on compsac2023.pdf (9 pages, 649798 bytes).
+Output written on compsac2023.pdf (9 pages, 649864 bytes).
 PDF statistics:
  97 PDF objects out of 1000 (max. 8388607)
  59 compressed objects within 1 object stream
