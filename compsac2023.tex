@@ -208,7 +208,9 @@ Since the XRc invoked in MLOps can target many different MLOps pipelines and can
 \label{Mapping}
 \begin{tabular}{|l|l|l|}
 \hline
-\textbf{XAI Microservices \& Provenance Ref} & \textbf{Components of XAI Microservices}  & \textbf{XRc Sub-phase Mapping} \\ \hline
+ & & \\
+\textbf{XAI Microservices \& Provenance Ref} & \textbf{Components of XAI Microservices}  & \textbf{XRc Sub-phase Mapping} \\
+ & & \\ \hline
 \multirow{3}{*}{User Interface} & RESTful API & \multirow{3}{*}{Representation and API} \\
  & Web Portal & \\
  & Command Line & \\ \hline 
@@ -234,7 +236,7 @@ It is important to note that this case study will focus solely on the implementa
 As depicted, the development of XAI operations as microservices resulted in a reference architecture composed of four layers: the user interface layer, the coordination center layer, the core microservice layer, and the data persistence layer. This reference architecture can be mapped to the XRc phase, as shown in Table \ref{Mapping}.
 \paragraph{User Interface} The XAI service architecture has a user interface that allows users to set up XAI tasks or connect them to pipelines. The interface offers three forms of access: a web portal, RESTful APIs, and a command line. The web portal includes features such as task configuration, explanation summaries, and data visualization. RESTful APIs support developers in building new XAI services and executing pipelines. The command line interface allows direct communication with the back-end server. These features support the Representation and API aspect of MLOps.
 \paragraph{Coordination Center} The coordination center in the XAI service architecture plays a crucial role in Gathering and Filtering in XRc Phase in the MLOps. The microservice management function is responsible for managing the life cycle of each microservice and documenting their endpoints and functional types. The XAI operation management includes a task executor that executes XAI tasks based on task sheets that contain information about the involved services, data set, and task parameters. This information is gathered and filtered by the coordination center to ensure that the correct microservices are utilized for each task. The data representation component retrieves information from the data persistence layer and presents it to the user, further supporting the Gathering and Filtering aspect of XRc Phase in MLOps.
-\paragraph{Microservice Layer}
+\paragraph{Microservice Layer} The encapsulation of diverse data sets, AI models, XAI methods, and evaluation metrics into microservices as described in the previous paragraph is a key aspect of the XAI Techniques Implementation subphase of the XRc phase in MLOps. The use of microservices simplifies the integration of these entities and supports the efficient execution of XAI tasks within the MLOps pipeline. The Data Processing, AI Model, XAI Method, and Evaluation microservices each play a specific role in supporting the implementation of XAI techniques in the XRc phase, making them crucial components of the XAI Techniques Implementation subphase of the overall MLOps process.
 \section*{Acknowledgment}
 
 The preferred spelling of the word ``acknowledgment'' in America is without 
