@@ -29,19 +29,13 @@ N.~Mehrabi, F.~Morstatter, N.~Saxena, K.~Lerman, and A.~Galstyan, ``A survey on
 \BIBentrySTDinterwordspacing
 
 \bibitem{abs-2111-09478}
-\BIBentryALTinterwordspacing
 Q.~Lu, L.~Zhu, X.~Xu, J.~Whittle, D.~Douglas, and C.~Sanderson, ``Software
   engineering for responsible {AI:} an empirical study and operationalised
-  patterns,'' \emph{CoRR}, vol. abs/2111.09478, 2021. [Online]. Available:
-  \url{https://arxiv.org/abs/2111.09478}
-\BIBentrySTDinterwordspacing
+  patterns,'' \emph{CoRR}, vol. abs/2111.09478, 2021.
 
 \bibitem{catalogue}
-\BIBentryALTinterwordspacing
 Q.~Lu, L.~Zhu, X.~Xu, J.~Whittle, D.~Zowghi, and A.~Jacquet, ``Responsible ai
-  pattern catalogue: A multivocal literature review,'' 2022. [Online].
-  Available: \url{https://arxiv.org/abs/2209.04963}
-\BIBentrySTDinterwordspacing
+  pattern catalogue: A multivocal literature review,'' 2022.
 
 \bibitem{API}
 \BIBentryALTinterwordspacing
@@ -52,27 +46,18 @@ F.~Hussain, R.~Hussain, B.~Noye, and S.~Sharieh, ``Enterprise {API} security
 \BIBentrySTDinterwordspacing
 
 \bibitem{Shneiderman}
-\BIBentryALTinterwordspacing
 B.~Shneiderman, ``Bridging the gap between ethics and practice: Guidelines for
   reliable, safe, and trustworthy human-centered ai systems,'' \emph{ACM Trans.
-  Interact. Intell. Syst.}, vol.~10, no.~4, oct 2020. [Online]. Available:
-  \url{https://doi.org/10.1145/3419764}
-\BIBentrySTDinterwordspacing
+  Interact. Intell. Syst.}, vol.~10, no.~4, oct 2020.
 
 \bibitem{ShneidermanRespo}
-\BIBentryALTinterwordspacing
 ------, ``Responsible ai: Bridging from ethics to practice,'' \emph{Commun.
-  ACM}, vol.~64, no.~8, p. 32–35, jul 2021. [Online]. Available:
-  \url{https://doi.org/10.1145/3445973}
-\BIBentrySTDinterwordspacing
+  ACM}, vol.~64, no.~8, p. 32–35, jul 2021.
 
 \bibitem{Jana}
-\BIBentryALTinterwordspacing
 J.~S. Borg, ``Four investment areas for ethical ai: Transdisciplinary
   opportunities to close the publication-to-practice gap,'' \emph{Big Data \&
-  Society}, vol.~8, no.~2, p. 20539517211040197, 2021. [Online]. Available:
-  \url{https://doi.org/10.1177/20539517211040197}
-\BIBentrySTDinterwordspacing
+  Society}, vol.~8, no.~2, p. 20539517211040197, 2021.
 
 \bibitem{Hussain}
 W.~Hussain, M.~Shahin, R.~Hoda, J.~Whittle, H.~Perera, A.~Nurwidyantoro,
@@ -84,11 +69,8 @@ Q.~Lu, L.~Zhu, X.~Xu, J.~Whittle, and Z.~Xing, ``Towards a roadmap on software
   engineering for responsible ai,'' 03 2022.
 
 \bibitem{TobyAPI}
-\BIBentryALTinterwordspacing
 T.~Shevlane, ``Structured access to {AI} capabilities: an emerging paradigm for
-  safe {AI} deployment,'' \emph{CoRR}, vol. abs/2201.05159, 2022. [Online].
-  Available: \url{https://arxiv.org/abs/2201.05159}
-\BIBentrySTDinterwordspacing
+  safe {AI} deployment,'' \emph{CoRR}, vol. abs/2201.05159, 2022.
 
 \bibitem{GlobalLandscape}
 \BIBentryALTinterwordspacing
@@ -98,59 +80,37 @@ A.~Jobin, M.~Ienca, and E.~Vayena, ``Artificial intelligence: the global
 \BIBentrySTDinterwordspacing
 
 \bibitem{mlops-without}
-\BIBentryALTinterwordspacing
 P.~Ruf, M.~Madan, C.~Reich, and D.~Ould-Abdeslam, ``Demystifying mlops and
   presenting a recipe for the selection of open-source tools,'' \emph{Applied
-  Sciences}, vol.~11, no.~19, 2021. [Online]. Available:
-  \url{https://www.mdpi.com/2076-3417/11/19/8861}
-\BIBentrySTDinterwordspacing
+  Sciences}, vol.~11, no.~19, 2021.
 
 \bibitem{DBLP:conf/bigdataconf/ShrivastavaPZIB20}
-\BIBentryALTinterwordspacing
 S.~Shrivastava, D.~Patel, N.~Zhou, A.~Iyengar, and A.~Bhamidipaty, ``Dqlearn :
   {A} toolkit for structured data quality learning,'' in \emph{2020 {IEEE}
   International Conference on Big Data {(IEEE} BigData 2020), Atlanta, GA, USA,
   December 10-13, 2020}, X.~Wu, C.~Jermaine, L.~Xiong, X.~Hu, O.~Kotevska,
   S.~Lu, W.~Xu, S.~Aluru, C.~Zhai, E.~Al{-}Masri, Z.~Chen, and J.~Saltz,
   Eds.\hskip 1em plus 0.5em minus 0.4em\relax {IEEE}, 2020, pp. 1644--1653.
-  [Online]. Available: \url{https://doi.org/10.1109/BigData50022.2020.9378296}
-\BIBentrySTDinterwordspacing
 
 \bibitem{raj2021engineering}
-\BIBentryALTinterwordspacing
 E.~Raj, \emph{Engineering MLOps: Rapidly build, test, and manage
   production-ready machine learning life cycles at scale}.\hskip 1em plus 0.5em
-  minus 0.4em\relax Packt Publishing, 2021. [Online]. Available:
-  \url{https://books.google.ca/books?id=oH8qEAAAQBAJ}
-\BIBentrySTDinterwordspacing
+  minus 0.4em\relax Packt Publishing, 2021.
 
 \bibitem{info11070363}
-\BIBentryALTinterwordspacing
 I.~Karamitsos, S.~Albarhami, and C.~Apostolopoulos, ``Applying devops practices
   of continuous automation for machine learning,'' \emph{Information}, vol.~11,
-  no.~7, 2020. [Online]. Available:
-  \url{https://www.mdpi.com/2078-2489/11/7/363}
-\BIBentrySTDinterwordspacing
+  no.~7, 2020.
 
 \bibitem{https://doi.org/10.48550/arxiv.2103.08942}
-\BIBentryALTinterwordspacing
 S.~Mäkinen, H.~Skogström, E.~Laaksonen, and T.~Mikkonen, ``Who needs mlops:
   What data scientists seek to accomplish and how can mlops help?'' 2021.
-  [Online]. Available: \url{https://arxiv.org/abs/2103.08942}
-\BIBentrySTDinterwordspacing
 
 \bibitem{label}
-\BIBentryALTinterwordspacing
-``Mlops workload orchestrator,'' accessed on August 12, 2022. [Online].
-  Available:
-  \url{https://aws.amazon.com/solutions/implementations/mlops-workload-orchestrator/}
-\BIBentrySTDinterwordspacing
+``Mlops workload orchestrator,'' accessed on August 12, 2022.
 
 \bibitem{label2}
-\BIBentryALTinterwordspacing
-``Aws mlops framework,'' accessed on August 13, 2022. [Online]. Available:
-  \url{https://aws.amazon.com/solutions/implementations/aws-mlops-framework/}
-\BIBentrySTDinterwordspacing
+``Aws mlops framework,'' accessed on August 13, 2022.
 
 \bibitem{sharma2017devops}
 S.~Sharma, \emph{The DevOps Adoption Playbook: A Guide to Adopting DevOps in a
@@ -175,12 +135,9 @@ P.~Mattson, C.~Cheng, C.~Coleman, G.~Diamos, P.~Micikevicius, D.~A. Patterson,
 \BIBentrySTDinterwordspacing
 
 \bibitem{DBLP:journals/corr/abs-2001-07935}
-\BIBentryALTinterwordspacing
 G.~Fursin, H.~Guillou, and N.~Essayan, ``Codereef: an open platform for
   portable mlops, reusable automation actions and reproducible benchmarking,''
-  \emph{CoRR}, vol. abs/2001.07935, 2020. [Online]. Available:
-  \url{https://arxiv.org/abs/2001.07935}
-\BIBentrySTDinterwordspacing
+  \emph{CoRR}, vol. abs/2001.07935, 2020.
 
 \bibitem{8496795}
 J.~Lu, A.~Liu, F.~Dong, F.~Gu, J.~Gama, and G.~Zhang, ``Learning under concept
@@ -188,11 +145,8 @@ J.~Lu, A.~Liu, F.~Dong, F.~Gu, J.~Gama, and G.~Zhang, ``Learning under concept
   Engineering}, vol.~31, no.~12, pp. 2346--2363, 2019.
 
 \bibitem{https://doi.org/10.48550/arxiv.1506.02351}
-\BIBentryALTinterwordspacing
 J.~Zhao, M.~Mathieu, R.~Goroshin, and Y.~LeCun, ``Stacked what-where
-  auto-encoders,'' 2015. [Online]. Available:
-  \url{https://arxiv.org/abs/1506.02351}
-\BIBentrySTDinterwordspacing
+  auto-encoders,'' 2015.
 
 \bibitem{HeZRS15}
 K.~He, X.~Zhang, S.~Ren, and J.~Sun, ``Deep residual learning for image
@@ -208,6 +162,11 @@ M.~A. Zaharia, M.~Chowdhury, T.~Das, A.~Dave, J.~Ma, J.~M. McCauley, M.~J.
   Franklin, S.~Shenker, and I.~Stoica, ``Fast and interactive analytics over
   hadoop data with spark,'' \emph{login Usenix Mag.}, vol.~37, 2012.
 
+\bibitem{taleb2018big}
+I.~Taleb, M.~A. Serhani, and R.~Dssouli, ``Big data quality: A survey,'' in
+  \emph{2018 IEEE International Congress on Big Data (BigData Congress)}.\hskip
+  1em plus 0.5em minus 0.4em\relax IEEE, 2018, pp. 166--173.
+
 \bibitem{8894364}
 J.~Weng, J.~Weng, J.~Zhang, M.~Li, Y.~Zhang, and W.~Luo, ``Deepchain: Auditable
   and privacy-preserving deep learning with blockchain-based incentive,''
@@ -215,10 +174,8 @@ J.~Weng, J.~Weng, J.~Zhang, M.~Li, Y.~Zhang, and W.~Luo, ``Deepchain: Auditable
   pp. 2438--2455, 2021.
 
 \bibitem{https://doi.org/10.48550/arxiv.2207.00091}
-\BIBentryALTinterwordspacing
 L.~N. Tidjon and F.~Khomh, ``Threat assessment in machine learning based
-  systems,'' 2022. [Online]. Available: \url{https://arxiv.org/abs/2207.00091}
-\BIBentrySTDinterwordspacing
+  systems,'' 2022.
 
 \bibitem{Fukas}
 P.~Fukas, J.~Rebstadt, F.~Remark, and O.~Thomas, ``Developing an artificial
@@ -232,6 +189,17 @@ R.~Sadiq, N.~Mohd~Satar, A.~H. Abd~Rahman, and S.~Goudarzi, ``Artificial
 \bibitem{Fish}
 B.~Fish and L.~Stark, ``Reflexive design for fairness and other human values in
   formal models,'' 07 2021, pp. 89--99.
+
+\bibitem{kisskalt2020streamlining}
+D.~Ki{\ss}kalt, A.~Mayr, B.~Lutz, A.~R{\"o}gele, and J.~Franke, ``Streamlining
+  the development of data-driven industrial applications by automated machine
+  learning,'' \emph{Procedia CIRP}, vol.~93, pp. 401--406, 2020.
+
+\bibitem{pedregosa2011scikit}
+F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel,
+  M.~Blondel, P.~Prettenhofer, R.~Weiss, V.~Dubourg \emph{et~al.},
+  ``Scikit-learn: Machine learning in python,'' \emph{Journal of machine
+  learning research}, vol.~12, no. Oct, pp. 2825--2830, 2011.
 
 \bibitem{10.1007/978-3-030-77385-4_44}
 I.~Naja, M.~Markovic, P.~Edwards, and C.~Cottrill, ``Correction to: A semantic
@@ -250,13 +218,15 @@ A.~Perera, A.~Aleti, C.~Tantithamthavorn, J.~Jiarpakdee, B.~Turhan, L.~Kuhn,
   learning systems,'' \emph{Empirical Software Engineering}, vol.~27, 05 2022.
 
 \bibitem{https://doi.org/10.48550/arxiv.2212.08821}
-\BIBentryALTinterwordspacing
 I.~Guzey, O.~Ucar, N.~A. Ciftdemir, and B.~Acunas, ``Context-dependent
   explainability and contestability for trustworthy medical artificial
   intelligence: Misclassification identification of morbidity recognition
-  models in preterm infants,'' 2022. [Online]. Available:
-  \url{https://arxiv.org/abs/2212.08821}
-\BIBentrySTDinterwordspacing
+  models in preterm infants,'' 2022.
+
+\bibitem{treveil2020introducing}
+M.~Treveil, N.~Omont, C.~Stenac, K.~Lefevre, D.~Phan, J.~Zentici,
+  A.~Lavoillotte, M.~Miyazaki, and L.~Heidmann, \emph{Introducing MLOps}.\hskip
+  1em plus 0.5em minus 0.4em\relax O'Reilly Media, 2020.
 
 \bibitem{mehmood2021concept}
 H.~Mehmood, P.~Kostakos, M.~Cortes, T.~Anagnostopoulos, S.~Pirttikangas, and
@@ -280,6 +250,11 @@ N.~Muralidhar, S.~Muthiah, P.~Butler, M.~Jain, Y.~Yu, K.~Burne, W.~Li,
   D.~Jones, P.~Arunachalam, H.~S. McCormick \emph{et~al.}, ``Using antipatterns
   to avoid mlops mistakes,'' \emph{arXiv preprint arXiv:2107.00079}, 2021.
 
+\bibitem{kadir2001saliency}
+T.~Kadir and M.~Brady, ``Saliency, scale and image description,''
+  \emph{International Journal of Computer Vision}, vol.~45, no.~2, pp. 83--105,
+  2001.
+
 \bibitem{granlund2021mlops}
 T.~Granlund, A.~Kopponen, V.~Stirbu, L.~Myllyaho, and T.~Mikkonen, ``Mlops
   challenges in multi-organization setup: Experiences from two real-world
@@ -297,5 +272,22 @@ D.~A. Tamburri, ``Sustainable mlops: Trends and challenges,'' in \emph{2020
 B.~Mons, \emph{Data stewardship for open science: Implementing FAIR
   principles}.\hskip 1em plus 0.5em minus 0.4em\relax Chapman and Hall/CRC,
   2018.
+
+\bibitem{maydanchik2007data}
+A.~Maydanchik, \emph{Data quality assessment}.\hskip 1em plus 0.5em minus
+  0.4em\relax Technics publications, 2007.
+
+\bibitem{lime}
+M.~T. Ribeiro, S.~Singh, and C.~Guestrin, ``"why should {I} trust you?":
+  Explaining the predictions of any classifier,'' in \emph{Proceedings of the
+  22nd {ACM} {SIGKDD} International Conference on Knowledge Discovery and Data
+  Mining, San Francisco, CA, USA, August 13-17, 2016}, 2016, pp. 1135--1144.
+
+\bibitem{shap}
+\BIBentryALTinterwordspacing
+S.~Lundberg and S.-I. Lee, ``A unified approach to interpreting model
+  predictions,'' 2017. [Online]. Available:
+  \url{https://arxiv.org/abs/1705.07874}
+\BIBentrySTDinterwordspacing
 
 \end{thebibliography}

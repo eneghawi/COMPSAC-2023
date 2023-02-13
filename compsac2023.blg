@@ -17,45 +17,45 @@ Warning--missing publisher in Jentzch
 Warning--empty booktitle in feurer_auto_2019
 
 Done.
-You've used 43 entries,
+You've used 51 entries,
             4024 wiz_defined-function locations,
-            1052 strings with 17074 characters,
-and the built_in function-call counts, 28575 in all, are:
-= -- 2137
-> -- 1005
-< -- 117
-+ -- 502
-- -- 223
-* -- 1414
-:= -- 4417
-add.period$ -- 90
-call.type$ -- 43
-change.case$ -- 48
-chr.to.int$ -- 225
-cite$ -- 47
-duplicate$ -- 2150
-empty$ -- 2361
-format.name$ -- 259
-if$ -- 6468
+            1080 strings with 18007 characters,
+and the built_in function-call counts, 34276 in all, are:
+= -- 2519
+> -- 1198
+< -- 170
++ -- 607
+- -- 259
+* -- 1627
+:= -- 5079
+add.period$ -- 107
+call.type$ -- 51
+change.case$ -- 54
+chr.to.int$ -- 354
+cite$ -- 55
+duplicate$ -- 2592
+empty$ -- 2887
+format.name$ -- 302
+if$ -- 7849
 int.to.chr$ -- 0
-int.to.str$ -- 43
-missing$ -- 474
-newline$ -- 194
-num.names$ -- 48
-pop$ -- 1248
+int.to.str$ -- 51
+missing$ -- 558
+newline$ -- 186
+num.names$ -- 56
+pop$ -- 1469
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 2163
+skip$ -- 2615
 stack$ -- 0
-substring$ -- 614
-swap$ -- 1604
-text.length$ -- 42
+substring$ -- 920
+swap$ -- 1953
+text.length$ -- 52
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 43
+type$ -- 51
 warning$ -- 4
-while$ -- 84
-width$ -- 45
-write$ -- 455
+while$ -- 112
+width$ -- 53
+write$ -- 478
 (There were 4 warnings)
