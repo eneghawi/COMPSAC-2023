@@ -105,4 +105,107 @@ P.~Ruf, M.~Madan, C.~Reich, and D.~Ould-Abdeslam, ``Demystifying mlops and
   \url{https://www.mdpi.com/2076-3417/11/19/8861}
 \BIBentrySTDinterwordspacing
 
+\bibitem{DBLP:conf/bigdataconf/ShrivastavaPZIB20}
+\BIBentryALTinterwordspacing
+S.~Shrivastava, D.~Patel, N.~Zhou, A.~Iyengar, and A.~Bhamidipaty, ``Dqlearn :
+  {A} toolkit for structured data quality learning,'' in \emph{2020 {IEEE}
+  International Conference on Big Data {(IEEE} BigData 2020), Atlanta, GA, USA,
+  December 10-13, 2020}, X.~Wu, C.~Jermaine, L.~Xiong, X.~Hu, O.~Kotevska,
+  S.~Lu, W.~Xu, S.~Aluru, C.~Zhai, E.~Al{-}Masri, Z.~Chen, and J.~Saltz,
+  Eds.\hskip 1em plus 0.5em minus 0.4em\relax {IEEE}, 2020, pp. 1644--1653.
+  [Online]. Available: \url{https://doi.org/10.1109/BigData50022.2020.9378296}
+\BIBentrySTDinterwordspacing
+
+\bibitem{raj2021engineering}
+\BIBentryALTinterwordspacing
+E.~Raj, \emph{Engineering MLOps: Rapidly build, test, and manage
+  production-ready machine learning life cycles at scale}.\hskip 1em plus 0.5em
+  minus 0.4em\relax Packt Publishing, 2021. [Online]. Available:
+  \url{https://books.google.ca/books?id=oH8qEAAAQBAJ}
+\BIBentrySTDinterwordspacing
+
+\bibitem{info11070363}
+\BIBentryALTinterwordspacing
+I.~Karamitsos, S.~Albarhami, and C.~Apostolopoulos, ``Applying devops practices
+  of continuous automation for machine learning,'' \emph{Information}, vol.~11,
+  no.~7, 2020. [Online]. Available:
+  \url{https://www.mdpi.com/2078-2489/11/7/363}
+\BIBentrySTDinterwordspacing
+
+\bibitem{https://doi.org/10.48550/arxiv.2103.08942}
+\BIBentryALTinterwordspacing
+S.~Mäkinen, H.~Skogström, E.~Laaksonen, and T.~Mikkonen, ``Who needs mlops:
+  What data scientists seek to accomplish and how can mlops help?'' 2021.
+  [Online]. Available: \url{https://arxiv.org/abs/2103.08942}
+\BIBentrySTDinterwordspacing
+
+\bibitem{label}
+\BIBentryALTinterwordspacing
+``Mlops workload orchestrator,'' accessed on August 12, 2022. [Online].
+  Available:
+  \url{https://aws.amazon.com/solutions/implementations/mlops-workload-orchestrator/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{label2}
+\BIBentryALTinterwordspacing
+``Aws mlops framework,'' accessed on August 13, 2022. [Online]. Available:
+  \url{https://aws.amazon.com/solutions/implementations/aws-mlops-framework/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{sharma2017devops}
+S.~Sharma, \emph{The DevOps Adoption Playbook: A Guide to Adopting DevOps in a
+  Multi-Speed IT Enterprise}.\hskip 1em plus 0.5em minus 0.4em\relax Wiley,
+  2017.
+
+\bibitem{Gudivada}
+V.~Gudivada, A.~Apon, and J.~Ding, ``Data quality considerations for big data
+  and machine learning: Going beyond data cleaning and transformations,''
+  \emph{International Journal on Advances in Software}, vol.~10, pp. 1--20, 07
+  2017.
+
+\bibitem{DBLP:journals/corr/abs-1910-01500}
+\BIBentryALTinterwordspacing
+P.~Mattson, C.~Cheng, C.~Coleman, G.~Diamos, P.~Micikevicius, D.~A. Patterson,
+  H.~Tang, G.~Wei, P.~Bailis, V.~Bittorf, D.~Brooks, D.~Chen, D.~Dutta,
+  U.~Gupta, K.~M. Hazelwood, A.~Hock, X.~Huang, B.~Jia, D.~Kang, D.~Kanter,
+  N.~Kumar, J.~Liao, G.~Ma, D.~Narayanan, T.~Oguntebi, G.~Pekhimenko,
+  L.~Pentecost, V.~J. Reddi, T.~Robie, T.~S. John, C.~Wu, L.~Xu, C.~Young, and
+  M.~Zaharia, ``Mlperf training benchmark,'' \emph{CoRR}, vol. abs/1910.01500,
+  2019. [Online]. Available: \url{http://arxiv.org/abs/1910.01500}
+\BIBentrySTDinterwordspacing
+
+\bibitem{DBLP:journals/corr/abs-2001-07935}
+\BIBentryALTinterwordspacing
+G.~Fursin, H.~Guillou, and N.~Essayan, ``Codereef: an open platform for
+  portable mlops, reusable automation actions and reproducible benchmarking,''
+  \emph{CoRR}, vol. abs/2001.07935, 2020. [Online]. Available:
+  \url{https://arxiv.org/abs/2001.07935}
+\BIBentrySTDinterwordspacing
+
+\bibitem{8496795}
+J.~Lu, A.~Liu, F.~Dong, F.~Gu, J.~Gama, and G.~Zhang, ``Learning under concept
+  drift: A review,'' \emph{IEEE Transactions on Knowledge and Data
+  Engineering}, vol.~31, no.~12, pp. 2346--2363, 2019.
+
+\bibitem{https://doi.org/10.48550/arxiv.1506.02351}
+\BIBentryALTinterwordspacing
+J.~Zhao, M.~Mathieu, R.~Goroshin, and Y.~LeCun, ``Stacked what-where
+  auto-encoders,'' 2015. [Online]. Available:
+  \url{https://arxiv.org/abs/1506.02351}
+\BIBentrySTDinterwordspacing
+
+\bibitem{HeZRS15}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun, ``Deep residual learning for image
+  recognition,'' \emph{CoRR}, vol. abs/1512.03385, 2015.
+
+\bibitem{DBLP:journals/corr/SparksTSKPGFJK13}
+E.~R. Sparks, A.~Talwalkar, V.~Smith, J.~Kottalam, X.~Pan, J.~E. Gonzalez,
+  M.~J. Franklin, M.~I. Jordan, and T.~Kraska, ``{MLI:} an {API} for
+  distributed machine learning,'' \emph{CoRR}, vol. abs/1310.5426, 2013.
+
+\bibitem{Zaharia2012FastAI}
+M.~A. Zaharia, M.~Chowdhury, T.~Das, A.~Dave, J.~Ma, J.~M. McCauley, M.~J.
+  Franklin, S.~Shenker, and I.~Stoica, ``Fast and interactive analytics over
+  hadoop data with spark,'' \emph{login Usenix Mag.}, vol.~37, 2012.
+
 \end{thebibliography}
