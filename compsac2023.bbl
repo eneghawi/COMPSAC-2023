@@ -208,4 +208,54 @@ M.~A. Zaharia, M.~Chowdhury, T.~Das, A.~Dave, J.~Ma, J.~M. McCauley, M.~J.
   Franklin, S.~Shenker, and I.~Stoica, ``Fast and interactive analytics over
   hadoop data with spark,'' \emph{login Usenix Mag.}, vol.~37, 2012.
 
+\bibitem{8894364}
+J.~Weng, J.~Weng, J.~Zhang, M.~Li, Y.~Zhang, and W.~Luo, ``Deepchain: Auditable
+  and privacy-preserving deep learning with blockchain-based incentive,''
+  \emph{IEEE Transactions on Dependable and Secure Computing}, vol.~18, no.~5,
+  pp. 2438--2455, 2021.
+
+\bibitem{https://doi.org/10.48550/arxiv.2207.00091}
+\BIBentryALTinterwordspacing
+L.~N. Tidjon and F.~Khomh, ``Threat assessment in machine learning based
+  systems,'' 2022. [Online]. Available: \url{https://arxiv.org/abs/2207.00091}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Fukas}
+P.~Fukas, J.~Rebstadt, F.~Remark, and O.~Thomas, ``Developing an artificial
+  intelligence maturity model for auditing,'' 06 2021.
+
+\bibitem{Sadiq}
+R.~Sadiq, N.~Mohd~Satar, A.~H. Abd~Rahman, and S.~Goudarzi, ``Artificial
+  intelligence maturity model: A systematic literature review,'' \emph{PeerJ
+  Computer Science}, vol.~7, 08 2021.
+
+\bibitem{Fish}
+B.~Fish and L.~Stark, ``Reflexive design for fairness and other human values in
+  formal models,'' 07 2021, pp. 89--99.
+
+\bibitem{10.1007/978-3-030-77385-4_44}
+I.~Naja, M.~Markovic, P.~Edwards, and C.~Cottrill, ``Correction to: A semantic
+  framework to support ai system accountability and audit,'' in \emph{The
+  Semantic Web}, R.~Verborgh, K.~Hose, H.~Paulheim, P.-A. Champin,
+  M.~Maleshkova, O.~Corcho, P.~Ristoski, and M.~Alam, Eds.\hskip 1em plus 0.5em
+  minus 0.4em\relax Cham: Springer International Publishing, 2021, pp. C1--C1.
+
+\bibitem{Jentzch}
+S.~Jentzsch, S.~Höhn, and N.~Hochgeschwender, \emph{Conversational Interfaces
+  for Explainable AI: A Human-Centred Approach}, 09 2019, pp. 77--92.
+
+\bibitem{article}
+A.~Perera, A.~Aleti, C.~Tantithamthavorn, J.~Jiarpakdee, B.~Turhan, L.~Kuhn,
+  and K.~Walker, ``Search-based fairness testing for regression-based machine
+  learning systems,'' \emph{Empirical Software Engineering}, vol.~27, 05 2022.
+
+\bibitem{https://doi.org/10.48550/arxiv.2212.08821}
+\BIBentryALTinterwordspacing
+I.~Guzey, O.~Ucar, N.~A. Ciftdemir, and B.~Acunas, ``Context-dependent
+  explainability and contestability for trustworthy medical artificial
+  intelligence: Misclassification identification of morbidity recognition
+  models in preterm infants,'' 2022. [Online]. Available:
+  \url{https://arxiv.org/abs/2212.08821}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}
