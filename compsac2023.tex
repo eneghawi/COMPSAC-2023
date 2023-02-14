@@ -79,7 +79,7 @@ One work that was proposed is Responsible AI (RAI) Pattern Catalogue \cite{catal
 	\caption{A Deep Dive into the MLOps Workflow with the XRc Phase: Understanding Key Actor Roles and Responsibilities}
 	\label{XAIRAIorg}
 \end{figure*}
-In this paper, we take a different approach by focusing on the organization-level patterns at the system level rather than just the ethical principles or AI algorithms. This approach aims to integrate responsible design in organizations into final AI products by looking at the MLOps in a bigger picture and the design patterns that reshape the system. This is done with the intention of bridging the gap between the organizational-level and team-level and facilitating navigation. We start off by looking at the main two levels of an organization with the addition to the team-level and examine the current available methods \cite{Shneiderman, ShneidermanRespo, Jana, Hussain, roadmap}. Then we make the links on where those methods meets and create the best practices using the multi-level governance patterns at the organization level. The overarching research question that has guided this study is:
+In this paper, we take a different approach by focusing on the organization-level patterns at the system level rather than just the ethical principles or AI algorithms. This approach aims to integrate responsible design in organizations into final AI products by looking at the MLOps in a bigger picture and the design patterns that reshape the system. This is done with the intention of bridging the gap between the organizational-level and team-level and facilitating navigation using MLOps. We start off by looking at the main two levels of an organization with the addition to the team-level and examine the current available methods \cite{Shneiderman, ShneidermanRespo, Jana, Hussain, roadmap}. Then we make the links on where those methods meets and create the best practices using the multi-level governance patterns at the organization level. The overarching research question that has guided this study is:
 
 % \begin{figure*}[h!]
 % 	\centering
@@ -181,7 +181,7 @@ XAI techniques is implemented by AI/MLOps engineers taking into consideration th
 	\item Regulators: It may require explanations of the decisions made by a machine learning model to ensure that the model is fair, transparent, and in compliance with regulations and ethical standards. XAI techniques designed for this audience might include model-agnostic techniques, such as Local Interpretable Model-Agnostic Explanation (LIME) \cite{lime} or SHapley Additive
 exPlanation (SHAP) \cite{shap}, that provide explanations for the predictions made by any machine learning model.
 \end{itemize}
-\paragraph{ML algorithm evaluation} Since some techniques can be used and integrated together, AI/MLOps engineer have to consider the broad range of XAI techniques. Those methods can be categorized into the following categories:
+\paragraph{ML Algorithm Evaluation} Since some techniques can be used and integrated together, AI/MLOps engineer have to consider the broad range of XAI techniques. Those methods can be categorized into the following categories:
 Model-Agnostic Techniques: Model-agnostic XAI techniques are techniques that can be applied to any machine learning model, regardless of the underlying algorithm or architecture. Examples of model-agnostic XAI techniques include LIME and SHAP.
 \begin{itemize}
 	\item Model-Specific Techniques: Model-specific XAI techniques are techniques that are designed specifically for a particular type of machine learning model, such as decision trees or neural networks. Examples of model-specific XAI techniques include saliency maps for neural networks and decision trees for decision trees.
@@ -193,7 +193,7 @@ Model-Agnostic Techniques: Model-agnostic XAI techniques are techniques that can
 
 These categories are not mutually exclusive and some XAI techniques may fall into multiple categories. The choice of XAI technique will depend on the specific requirements of the use case and the type of model being used.
 
-\subsection{Gathering and filtering} Gathering and filtering XAI methods involves selecting a subset of XAI methods that are appropriate for a specific use case, and then integrating and combining those methods to provide a more comprehensive and effective explanation of the decisions made by a machine learning model. To effectively utilize XAI methods for a specific use case, here are the steps to gather and filter XAI methods: 
+\subsection{Gathering and Filtering} Gathering and filtering XAI methods involves selecting a subset of XAI methods that are appropriate for a specific use case, and then integrating and combining those methods to provide a more comprehensive and effective explanation of the decisions made by a machine learning model. To effectively utilize XAI methods for a specific use case, here are the steps to gather and filter XAI methods: 
 \begin{itemize}
 	\item Define the requirements: AI/MLOps engineers should start by defining the requirements based on the audience they are trying to target and the type of model being used. This will help to determine which XAI methods are most appropriate for the use case.
 	\item Gather XAI methods: Next, gathering a set of XAI methods that are appropriate and generated by the XAI technique Implementation. This may require back and forth to add, remove certain XAI techniques.
@@ -214,7 +214,7 @@ These categories are not mutually exclusive and some XAI techniques may fall int
  & Command Line & \\ \hline 
 \multirow{4}{*}{\textbf{Coordination Center}} & \multirow{2}{*}{Microservice Management} & \multirow{4}{*}{Gathering and Filtering} \\
  & & \\
- & \multirow{2}{*}{\textbf{XAI Operation Management}} & \\
+ & \multirow{2}{*}{XAI Operation Management} & \\
  & & \\ \hline 
 \multirow{5}{*}{\textbf{Microservice Layer}} & Data Representation & \multirow{5}{*}{XAI Techniques Implementation} \\
  & Data Processing & \\
@@ -267,7 +267,7 @@ As depicted in Figure \ref{MIICE}, the Explanation Generation Operation and the 
 
 Since the XAI techniques implementation has taken place, it is possible to do more gathering and filtering by using the computed values. This done through additional analysis of the impact of feature changes on the outcome. As such, A clear explanation can be generated and its reliability and coherence can be assessed based on prior research on explanation evaluation. The closer the predictions generated by the two models, i.e., the cloud-based AI service and the approximation models such as ResNet and DenseNet the more similarities there are in the features that influence their predictions.
 
-Finally, Given that RESTful APIs provide the sole means of accessing most services, the combination of relevant components and processes shown in Figure \ref{MIICE} illustrate the type of services utilizing APIs specified on service endpoints. This serves as a significant factor in advocating for the implementation of microservices for XAI operations. This cleary a direct mapping to the XRc representation and API phase.
+Finally, given that RESTful APIs provide the sole means of accessing most services, the combination of relevant components and processes shown in Figure \ref{MIICE} illustrate the type of services utilizing APIs specified on service endpoints. This serves as a significant factor in advocating for the implementation of microservices for XAI operations. This cleary a direct mapping to the XRc representation and API phase.
 
 \section{Conclusion}
 The connection between team-level governance patterns and organization-level patterns can be effectively established through the use of MLOps. The XRc phase provides a clear connection between the two levels of governance, allowing for the navigation and utilization of both patterns. The Design Explanation Microservices and Provenance case study serves as a practical example of this principle-to-practice multi-level governance pattern, showcasing how XAI techniques can be effectively implemented in real-world scenarios to support both team and organizational governance goals. By utilizing the XRc phase in MLOps and examining the results of the case study, organizations can gain a better understanding of how to bridge the gap between team-level and organizational-level governance in a way that is both effective and efficient.
