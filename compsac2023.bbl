@@ -37,6 +37,14 @@ Q.~Lu, L.~Zhu, X.~Xu, J.~Whittle, D.~Douglas, and C.~Sanderson, ``Software
 Q.~Lu, L.~Zhu, X.~Xu, J.~Whittle, D.~Zowghi, and A.~Jacquet, ``Responsible ai
   pattern catalogue: A multivocal literature review,'' 2022.
 
+\bibitem{Ramp}
+\BIBentryALTinterwordspacing
+R.~R. Selvaraju, A.~Das, R.~Vedantam, M.~Cogswell, D.~Parikh, and D.~Batra,
+  ``Grad-cam: Why did you say that? visual explanations from deep networks via
+  gradient-based localization,'' \emph{CoRR}, vol. abs/1610.02391, 2016.
+  [Online]. Available: \url{http://arxiv.org/abs/1610.02391}
+\BIBentrySTDinterwordspacing
+
 \bibitem{API}
 \BIBentryALTinterwordspacing
 F.~Hussain, R.~Hussain, B.~Noye, and S.~Sharieh, ``Enterprise {API} security
@@ -261,6 +269,14 @@ T.~Granlund, A.~Kopponen, V.~Stirbu, L.~Myllyaho, and T.~Mikkonen, ``Mlops
   cases,'' in \emph{2021 IEEE/ACM 1st Workshop on AI Engineering-Software
   Engineering for AI (WAIN)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
   2021, pp. 82--88.
+
+\bibitem{densnet}
+G.~Huang, Z.~Liu, L.~van~der Maaten, and K.~Q. Weinberger, ``Densely connected
+  convolutional networks,'' 2016.
+
+\bibitem{resnet}
+K.~He, X.~Zhang, S.~Ren, and J.~Sun, ``Deep residual learning for image
+  recognition,'' 2015.
 
 \bibitem{tamburri2020sustainable}
 D.~A. Tamburri, ``Sustainable mlops: Trends and challenges,'' in \emph{2020
