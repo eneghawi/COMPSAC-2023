@@ -34,7 +34,20 @@
 Montreal, Canada \\
 e\_negh@encs.concordia.ca}
 
+\IEEEauthorblockN{Jun Huang}
+\IEEEauthorblockA{\textit{Electrical and Computer Engineering} \\
+\textit{Concordia University}\\
+Montreal, Canada \\
+jun.huang@concordia.ca}
+
 \and
+
+\IEEEauthorblockN{Zerui Wang}
+\IEEEauthorblockA{\textit{Electrical and Computer Engineering} \\
+\textit{Concordia University}\\
+Montreal, Canada \\
+zerui.wang@concordia.ca}
+
 
 \IEEEauthorblockN{Yan Liu}
 \IEEEauthorblockA{\textit{Electrical and Computer Engineering} \\
@@ -248,16 +261,18 @@ As depicted, the development of XAI operations as microservices resulted in a re
 \paragraph{Data Persistent Layer} The data persistence layer in the XAI service is responsible for managing the storage and retrieval of data sets, XAI operation data, explanation summaries, and evaluation results. This layer plays a crucial role in the XRc phase of MLOps by providing a unified system for storing and accessing the necessary information for XAI operations. The design of XAI provenance metadata is also introduced in a later section, further enhancing the efficiency and organization of the XAI process. The data persistence layer is a key component of both the XAI Techniques Implementation and Model Type Identification subphases of the XRc phase in MLOps. The ability to easily add new AI models, data sets, or XAI methods further underscores the importance of the data persistence layer in supporting the overall MLOps process.
 In the next section, we will delve deeper into the implementation of the Post Hoc XAI with feature contribution explanation, highlighting its practical applications and benefits in the XRc Phase of MLOps.
 \subsection{Post Hoc XAI Methods with Feature Contribution Explanation}
-Post-hoc XAI methods for feature influence and causality can be applied to computer vision AI services as they provide a way to understand how the deep learning models make their predictions. These methods can be used to approximate the internal workings of the AI models and provide insights into the contribution of each feature to the prediction result. This information can be useful for improving the accuracy of the models, as well as for building trust with users and stakeholders who may be concerned about the transparency of AI systems. Additionally, the availability of state-of-the-art deep learning models and XAI methods for computer vision in the literature makes it easier to adopt these methods for computer vision AI services. 
+Post-hoc XAI methods for feature influence and causality can be applied to computer vision AI services as they provide a way to understand how the deep learning models make their predictions. These methods can be used to approximate the internal workings of the AI models and provide insights into the contribution of each feature to the prediction result. This information can be useful for improving the accuracy of the models, as well as for building trust with users and stakeholders who may be concerned about the transparency of AI systems. Additionally, the availability of state-of-the-art deep learning models and XAI methods for computer vision in the literature makes it easier to adopt these methods for computer vision AI services.
 
-As depicted in Figure \ref{MIICE}, the Explanation Generation Operation and the Cloud AI Service are a part of the XAI Techniques Implementation. This makes sense since the process involves inputting images into a cloud-based AI service in the first branch, which outputs the prediction results. In the second branch, the images are processed by an approximation model such as ResNet or DenseNet [35], [36]. XAI methods specific to the model [17]–[21] are then utilized to generate a salience map that highlights the most significant features of the image. This map is applied to the original image, creating augmented images that are then input into the cloud-based AI service. As a result, the prediction results from the cloud-based AI service on these augmented images will differ from the original prediction due to the changes in the features.
+As depicted in Figure \ref{MIICE}, the Explanation Generation Operation and the Cloud AI Service are a part of the XAI Techniques Implementation. This makes sense since the process involves inputting images into a cloud-based AI service in the first branch, which outputs the prediction results. In the second branch, the images are processed by an approximation model such as ResNet or DenseNet \cite{resnet} , \cite{densnet}. XAI methods specific to the model [17]–[21] are then utilized to generate a salience map that highlights the most significant features of the image. This map is applied to the original image, creating augmented images that are then input into the cloud-based AI service. As a result, the prediction results from the cloud-based AI service on these augmented images will differ from the original prediction due to the changes in the features.
+
+Since the XAI techniques implementation has taken place, it is possible to do more gathering and filtering by using the computed values. This done through additional analysis of the impact of feature changes on the outcome. As such, A clear explanation can be generated and its reliability and coherence can be assessed based on prior research on explanation evaluation. The closer the predictions generated by the two models, i.e., the cloud-based AI service and the approximation models such as ResNet and DenseNet the more similarities there are in the features that influence their predictions.
+
+Finally, Given that RESTful APIs provide the sole means of accessing most services, the combination of relevant components and processes shown in Figure \ref{MIICE} illustrate the type of services utilizing APIs specified on service endpoints. This serves as a significant factor in advocating for the implementation of microservices for XAI operations. This cleary a direct mapping to the XRc representation and API phase.
 
 \section{Conclusion}
 The connection between team-level governance patterns and organization-level patterns can be effectively established through the use of MLOps. The XRc phase provides a clear connection between the two levels of governance, allowing for the navigation and utilization of both patterns. The Design Explanation Microservices and Provenance case study serves as a practical example of this principle-to-practice multi-level governance pattern, showcasing how XAI techniques can be effectively implemented in real-world scenarios to support both team and organizational governance goals. By utilizing the XRc phase in MLOps and examining the results of the case study, organizations can gain a better understanding of how to bridge the gap between team-level and organizational-level governance in a way that is both effective and efficient.
 
 Future work in this area could involve exploring new and innovative XAI techniques and methods to further enhance the efficiency and effectiveness of the XRc phase in MLOps. Additionally, continued research into the relationship between team-level and organization-level governance patterns in the context of MLOps will be important in order to fully understand the best practices and strategies for bridging the gap between these two levels of governance.
-\section*{Acknowledgment}
-The authors would like to extend their sincere gratitude to Zerui Wang and Jun Huang for their invaluable contributions to the case study presented in this paper. The authors acknowledge the effort and dedication of both contributors, who have made a significant impact on the outcome of this research.
 
 \bibliographystyle{IEEEtran}
 \bibliography{bibfile.bib}

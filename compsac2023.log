@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.17)  13 FEB 2023 21:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.17)  13 FEB 2023 21:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -386,109 +386,109 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-<Organization.png, id=1, 2388.925pt x 1273.75874pt>
-File: Organization.png Graphic file (type png)
-<use Organization.png>
-Package pdftex.def Info: Organization.png  used on input line 65.
-(pdftex.def)             Requested size: 412.80157pt x 220.0929pt.
-
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
-4.
+<Organization.png, id=13, 2388.925pt x 1273.75874pt>
+File: Organization.png Graphic file (type png)
+<use Organization.png>
+Package pdftex.def Info: Organization.png  used on input line 78.
+(pdftex.def)             Requested size: 412.80157pt x 220.0929pt.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
+7.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-84.
+97.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-84.
+97.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 84.
+(Font)              <10> on input line 97.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 84.
+(Font)              <7> on input line 97.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 84.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
+(Font)              <5> on input line 97.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 97.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 97.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (2.47778pt too wide) in paragraph at lines 81--85
+Overfull \hbox (2.47778pt too wide) in paragraph at lines 94--98
 [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2 <./Organization.png>] [3]
-<ML-OPS_with_XAI.png, id=24, 2270.4825pt x 1514.65875pt>
+[2] [3 <./Organization.png>]
+<ML-OPS_with_XAI.png, id=24, 2258.4375pt x 1529.715pt>
 File: ML-OPS_with_XAI.png Graphic file (type png)
 <use ML-OPS_with_XAI.png>
-Package pdftex.def Info: ML-OPS_with_XAI.png  used on input line 128.
-(pdftex.def)             Requested size: 412.80157pt x 275.37712pt.
+Package pdftex.def Info: ML-OPS_with_XAI.png  used on input line 141.
+(pdftex.def)             Requested size: 412.80157pt x 279.58498pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 135--136
+Underfull \hbox (badness 2261) in paragraph at lines 148--149
 \OT1/lmr/m/n/10 the prob-lem (su-per-vised, un-su-per-vised, or semi-
  []
 
 [4]
-Underfull \hbox (badness 3029) in paragraph at lines 165--167
+Underfull \hbox (badness 3029) in paragraph at lines 178--180
  \OT1/lmr/m/it/10 a) Au-di-ence eval-u-a-tion: [][] \OT1/lmr/m/n/10 While the a
 u-di-ences is
  []
 
 [5 <./ML-OPS_with_XAI.png>]
-Underfull \hbox (badness 3482) in paragraph at lines 185--186
+Underfull \hbox (badness 3482) in paragraph at lines 198--199
 []\OT1/lmr/m/n/10 Defining the re-quire-ments: AI/MLOps en-gi-neers
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 194.
+(Font)              <8> on input line 207.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 194.
-<XAI_MT.png, id=32, 3447.88126pt x 1386.17876pt>
+(Font)              <6> on input line 207.
+[6]
+<XAI_MT.png, id=35, 3447.88126pt x 1386.17876pt>
 File: XAI_MT.png Graphic file (type png)
 <use XAI_MT.png>
-Package pdftex.def Info: XAI_MT.png  used on input line 236.
+Package pdftex.def Info: XAI_MT.png  used on input line 249.
 (pdftex.def)             Requested size: 464.39685pt x 186.70303pt.
+ [7]
 
-Underfull \vbox (badness 1430) has occurred while \output is active []
+LaTeX Warning: Citation `resnet' on page 8 undefined on input line 266.
 
- [6]
-[7] [8 <./XAI_MT.png>] (./compsac2023.bbl
+
+LaTeX Warning: Citation `densnet' on page 8 undefined on input line 266.
+
+[8 <./XAI_MT.png>] (./compsac2023.bbl
 Underfull \hbox (badness 6284) in paragraph at lines 199--203
 []\OT1/lmr/m/n/8 F. Pe-dregosa, G. Varo-quaux, A. Gram-fort, V. Michel,
  []
 
-
+[9]
 Underfull \hbox (badness 1881) in paragraph at lines 216--219
 []\OT1/lmr/m/n/8 A. Per-era, A. Aleti, C. Tan-tithamtha-vorn, J. Jiarpakdee,
  []
 
-[9]
+
 Underfull \hbox (badness 1509) in paragraph at lines 259--264
 []\OT1/lmr/m/n/8 T. Granlund, A. Kop-po-nen, V. Stirbu, L. Myllyaho, and
  []
@@ -507,29 +507,33 @@ Before submitting the final camera ready copy, remember to:
 
 [10
 
-] (./compsac2023.aux) ) 
+] (./compsac2023.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4878 strings out of 478287
- 76983 string characters out of 5849289
- 396504 words of memory out of 5000000
- 22984 multiletter control sequences out of 15000+600000
+ 4880 strings out of 478287
+ 77000 string characters out of 5849289
+ 394485 words of memory out of 5000000
+ 22986 multiletter control sequences out of 15000+600000
  648032 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,10n,62p,1413b,302s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/sha
-re/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
-lm-rmsc.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmsy7.pfb>
-Output written on compsac2023.pdf (10 pages, 1349915 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/sha
+re/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmc
+sc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmsy7.pfb>
+Output written on compsac2023.pdf (10 pages, 1375241 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 107 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
