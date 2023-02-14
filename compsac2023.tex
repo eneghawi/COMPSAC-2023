@@ -175,18 +175,18 @@ The two dynamic methods can be useful in different scenarios, and the choice of 
 
 \subsection{XAI techniques Implementation}
 XAI techniques is implemented by AI/MLOps engineers taking into consideration the ML algorithm and the different audiences. It may require a trade-off between technical detail and simplicity, transparency and fairness, and other factors.
-\paragraph{Audience evaluation} While the audiences is mainly at the organization level, AI/MLOps Engineers can categories their audience into two:
+\paragraph{Audience Evaluation} While the audiences is mainly at the organization level, AI/MLOps Engineers can categories their audience into two:
 \begin{itemize}
 	\item End Users: It may require simple and understandable explanations of the decisions made by a machine learning model. XAI techniques designed for this audience might include rule-based systems, decision trees, or prototype-based explanations that provide examples that are representative of the decisions made by a machine learning model.
 	\item Regulators: It may require explanations of the decisions made by a machine learning model to ensure that the model is fair, transparent, and in compliance with regulations and ethical standards. XAI techniques designed for this audience might include model-agnostic techniques, such as Local Interpretable Model-Agnostic Explanation (LIME) \cite{lime} or SHapley Additive
 exPlanation (SHAP) \cite{shap}, that provide explanations for the predictions made by any machine learning model.
 \end{itemize}
-\paragraph{ML Algorithm Evaluation} Since some techniques can be used and integrated together, AI/MLOps engineer have to consider the broad range of XAI techniques. Those methods can be categorized into the following categories:
+\paragraph{ML Algorithm Evaluation} Since some techniques can be used and integrated together, AI/MLOps engineer have to consider the broad range of XAI techniques. Those methods can be categorized into the following categories \cite{XAIREF}:
 Model-Agnostic Techniques: Model-agnostic XAI techniques are techniques that can be applied to any machine learning model, regardless of the underlying algorithm or architecture. Examples of model-agnostic XAI techniques include LIME and SHAP.
 \begin{itemize}
-	\item Model-Specific Techniques: Model-specific XAI techniques are techniques that are designed specifically for a particular type of machine learning model, such as decision trees or neural networks. Examples of model-specific XAI techniques include saliency maps for neural networks and decision trees for decision trees.
+	\item Model-Specific Techniques: Model-specific XAI techniques \cite{XAIREF} are techniques that are designed specifically for a particular type of machine learning model, such as decision trees or neural networks. Examples of model-specific XAI techniques include saliency maps for neural networks and decision trees for decision trees.
 
-	\item Post-Hoc Techniques: Post-hoc XAI techniques are techniques that are applied to a trained machine learning model after it has been trained, in order to provide explanations for its decisions and actions. Examples of post-hoc XAI techniques include LIME, SHAP, and saliency maps \cite{kadir2001saliency}.
+	\item Post-Hoc Techniques: Post-hoc XAI techniques \cite{XAIREF} are techniques that are applied to a trained machine learning model after it has been trained, in order to provide explanations for its decisions and actions. Examples of post-hoc XAI techniques include LIME, SHAP, and saliency maps \cite{kadir2001saliency}.
 
 	\item Integrative Techniques: Integrative XAI techniques are techniques that involve integrating XAI into the training process of a machine learning model, so that explanations can be generated as part of the model's normal operation.
 \end{itemize}
