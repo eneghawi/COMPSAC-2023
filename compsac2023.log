@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.17)  13 FEB 2023 22:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.17)  14 FEB 2023 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -465,18 +465,22 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 207.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 207.
-[6]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6]
 <XAI_MT.png, id=35, 3447.88126pt x 1386.17876pt>
 File: XAI_MT.png Graphic file (type png)
 <use XAI_MT.png>
 Package pdftex.def Info: XAI_MT.png  used on input line 249.
 (pdftex.def)             Requested size: 464.39685pt x 186.70303pt.
- [7] [8 <./XAI_MT.png>] (./compsac2023.bbl
+
+[7] [8 <./XAI_MT.png>] (./compsac2023.bbl [9]
 Underfull \hbox (badness 6284) in paragraph at lines 207--211
 []\OT1/lmr/m/n/8 F. Pe-dregosa, G. Varo-quaux, A. Gram-fort, V. Michel,
  []
 
-[9]
+
 Underfull \hbox (badness 1881) in paragraph at lines 224--227
 []\OT1/lmr/m/n/8 A. Per-era, A. Aleti, C. Tan-tithamtha-vorn, J. Jiarpakdee,
  []
@@ -504,11 +508,11 @@ Before submitting the final camera ready copy, remember to:
 Here is how much of TeX's memory you used:
  4881 strings out of 478287
  77006 string characters out of 5849289
- 395537 words of memory out of 5000000
+ 394269 words of memory out of 5000000
  22987 multiletter control sequences out of 15000+600000
  648032 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,62p,1413b,302s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,10n,62p,1426b,307s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/sha
 re/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
 lm-rmsc.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf
@@ -519,7 +523,7 @@ ts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb>
 /public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/sh
 are/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmsy7.pfb>
-Output written on compsac2023.pdf (10 pages, 1354448 bytes).
+Output written on compsac2023.pdf (10 pages, 1355029 bytes).
 PDF statistics:
  102 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
