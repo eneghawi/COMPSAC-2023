@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.17)  14 FEB 2023 21:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.17)  14 FEB 2023 21:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -497,10 +497,10 @@ Before submitting the final camera ready copy, remember to:
 
 [10] (./compsac2023.aux) ) 
 Here is how much of TeX's memory you used:
- 4882 strings out of 478287
- 77014 string characters out of 5849289
- 388922 words of memory out of 5000000
- 22988 multiletter control sequences out of 15000+600000
+ 4881 strings out of 478287
+ 76996 string characters out of 5849289
+ 388943 words of memory out of 5000000
+ 22987 multiletter control sequences out of 15000+600000
  648032 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,10n,62p,1426b,307s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -514,7 +514,7 @@ fb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/publ
 ic/lm/lmsy7.pfb>
-Output written on compsac2023.pdf (10 pages, 2689575 bytes).
+Output written on compsac2023.pdf (10 pages, 2675322 bytes).
 PDF statistics:
  102 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
