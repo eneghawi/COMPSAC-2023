@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.17)  14 FEB 2023 20:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.5.17)  14 FEB 2023 21:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -468,11 +468,12 @@ File: XAI_MT.png Graphic file (type png)
 Package pdftex.def Info: XAI_MT.png  used on input line 249.
 (pdftex.def)             Requested size: 516.0pt x 124.70828pt.
  [7] [8 <./XAI_MT.png>] (./compsac2023.bbl
+[9]
 Underfull \hbox (badness 6284) in paragraph at lines 211--215
 []\OT1/lmr/m/n/8 F. Pe-dregosa, G. Varo-quaux, A. Gram-fort, V. Michel,
  []
 
-[9]
+
 Underfull \hbox (badness 1881) in paragraph at lines 228--231
 []\OT1/lmr/m/n/8 A. Per-era, A. Aleti, C. Tan-tithamtha-vorn, J. Jiarpakdee,
  []
@@ -494,28 +495,26 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[10
-
-] (./compsac2023.aux) ) 
+[10] (./compsac2023.aux) ) 
 Here is how much of TeX's memory you used:
  4882 strings out of 478287
  77014 string characters out of 5849289
- 394281 words of memory out of 5000000
+ 388922 words of memory out of 5000000
  22988 multiletter control sequences out of 15000+600000
  648032 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,10n,62p,1426b,307s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/sha
-re/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
-lm-rmsc.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmsy7.pfb>
-Output written on compsac2023.pdf (10 pages, 2687562 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/
+share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/
+lm/lm-rmsc.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmb
+xi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/
+fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmsy7.pfb>
+Output written on compsac2023.pdf (10 pages, 2689575 bytes).
 PDF statistics:
  102 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
