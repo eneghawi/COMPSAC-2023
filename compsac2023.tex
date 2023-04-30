@@ -28,38 +28,38 @@
 }
 
 \author{
-\IEEEauthorblockN{Elie Neghawi}
-\IEEEauthorblockA{\textit{Electrical and Computer Engineering} \\
-\textit{Concordia University}\\
-Montreal, Canada \\
-e\_negh@encs.concordia.ca}
+\IEEEauthorblockN{xxxxxxxxxxxx}
+\IEEEauthorblockA{\textit{xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx} \\
+\textit{xxxxxxxxxxxxxxxxxxxx}\\
+xxxxxxxxxxxxxxxx \\
+xxxxxxxxxxxxxxxxxxxxxxxxx}
 
-\IEEEauthorblockN{Jun Huang}
-\IEEEauthorblockA{\textit{Electrical and Computer Engineering} \\
-\textit{Concordia University}\\
-Montreal, Canada \\
-jun.huang@concordia.ca}
+\IEEEauthorblockN{xxxxxxxxxxxx}
+\IEEEauthorblockA{\textit{xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx} \\
+\textit{xxxxxxxxxxxxxxxxxxxx}\\
+xxxxxxxxxxxxxxxx \\
+xxxxxxxxxxxxxxxxxxxxxxxxx}
 
 \and
 
-\IEEEauthorblockN{Zerui Wang}
-\IEEEauthorblockA{\textit{Electrical and Computer Engineering} \\
-\textit{Concordia University}\\
-Montreal, Canada \\
-zerui.wang@concordia.ca}
+\IEEEauthorblockN{xxxxxxxxxxxx}
+\IEEEauthorblockA{\textit{xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx} \\
+\textit{xxxxxxxxxxxxxxxxxxxx}\\
+xxxxxxxxxxxxxxxx \\
+xxxxxxxxxxxxxxxxxxxxxxxxx}
 
 
-\IEEEauthorblockN{Yan Liu}
-\IEEEauthorblockA{\textit{Electrical and Computer Engineering} \\
-\textit{Concordia University}\\
-Montreal, Canada \\
-yan.liu@concordia.ca}
+\IEEEauthorblockN{xxxxxxxxxxxx}
+\IEEEauthorblockA{\textit{xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx} \\
+\textit{xxxxxxxxxxxxxxxxxxxx}\\
+xxxxxxxxxxxxxxxx \\
+xxxxxxxxxxxxxxxxxxxxxxxxx}
 }
 
 \maketitle
 
 \begin{abstract}
-	The adoption of AI systems has been widely used across multiple industry domains at an alarming rate without a focus on its ethical concerns. To address these concerns, there has been an increasing number of AI ethics frameworks suggested recently, focusing on the algorithmic level rather than the systems level. Nonetheless, some of the system-level approaches developed mostly cover a single level governance pattern of the system components in the entire software design lifecycle. However, there is a need to go beyond the single level system design AI ethics frameworks to allow not only better responsible AI-by-design but also trustworthy process patterns that abstract and link the underlying layers of responsible AI on each and every level. This paper illustrates a principal-to-practice guide of the multi-level governance within organizations across the globe for AI ethics frameworks. We outline the main areas of gap in organizations for AI ethics frameworks. Subsequently, we propose a multi-level governance pattern for responsible AI systems within organizations which is participatory, iterative, flexible and operationalizable, targeting those main gap areas. Finally, to assist practitioners in applying the multi-level governance AI in organizations and the impact it has on the industry level, we will translate it into effective and responsible AI practices using a case study.
+	Adoption of AI systems has been widely used across multiple industry domains at an alerting rate without the focus on it's ethical concerns. To address those concerns, there are an increase number of AI ethics frameworks that have been suggested recently that focus on the algorithmic level rather on the systems level. Nonetheless, some of the system level approaches developed mostly cover a single level governance pattern of the system components in the entire software design lifecycle. However, the need to go beyond the single level  system design AI ethics frameworks to allow not only a better responsible-AI-by-design, but also a trustworthy process patterns that abstract and link the underlying layers of responsible AI on each and every level. This paper illustrates a principal-to-practice guide of the multi-level governance within organizations across the globe for AI ethics frameworks. We outline the main areas of gap in organizations for AI ethics frameworks. Consecutively, we propose a multi-level governance pattern for responsible AI systems within organizations which is participatory, iterative, flexible and operationalizable that target those main gap areas. Finally, to assist practitioners to apply the multi-level governance AI in organizations and the impact that it has on the industry level, we will translate into effective and responsible AI practices using a case study.
 \end{abstract}
 
 \begin{IEEEkeywords}
@@ -67,11 +67,11 @@ AI, AI ethics, trustworthy AI, AIMLOps, AIOps, software engineering, software ar
 \end{IEEEkeywords}
 
 \section{Introduction}
-Artificial Intelligence (AI) has reshaped our lives, helping people make better predictions and take more informed and wise decisions. However, this high-tech is still in its infancy, and there remains much promise for AI to promote innovation and address global challenges that people face.
+Aritificial Intelligence (AI) reshaped our lives, helped people make better predictions and take more informed and wise decisions. However, these high tech are still in there infancy, and there remains much promise for AI to promote innovation and address global challenges that people face.
 
-Consequently, ethical concerns and anxieties are fueling around AI \cite{DBLP}. There are lots of inquiries on the trustworthiness and adoption of AI systems, including concerns about exacerbating inequality, the digital divide, climate change, and market concentration. Additionally, there are concerns that the use of AI may compromise human rights and values such as privacy. To address these concerns and ensure the responsible development and use of AI, a collaborative effort involving multiple stakeholders and international cooperation has issued guidelines and ethical principles. Despite the creation of ethical guidelines for AI development inside organizations, it can be challenging for developers to apply these principles in practical situations. These principles are often abstract and may not provide clear direction for specific implementation \cite{abs-2111-09478}. Therefore, more specific and actionable guidelines are needed to assist developers in implementing ethical considerations in their AI systems. It is important to bridge the gap between ethical principles and the algorithms used in AI systems to ensure responsible development. However, the architecture of an AI ecosystem consists of three layers: the AI software supply chain, the AI system, and the operation infrastructure. It is challenging to show the contribution of each.
+Consecutively, ethical concerns and anxieties are fuelling around AI \cite{DBLP}. There are lots of enquiries on the trustworthiness and adoption of AI systems, including concerns about exacerbating inequality, digital divide, climate change and market concentration. Additionally, there are concerns that the use of AI may compromise human rights and values such as privacy. To address these concerns and ensure the responsible development and use of AI, a collaborative effort involving multiple stakeholders and international cooperation issued guidelines and ethical principles. Despite the creation of ethical guidelines for AI development inside organization, it can be challenging for developers to apply these principles in practical situations. These principles are often abstract and may not provide clear direction for specific implementation \cite{abs-2111-09478}. Therefore, more specific and actionable guidelines are needed to assist developers in implementing ethical considerations in their AI systems. It is important to bridge the gap between ethical principles and the algorithms used in AI systems to ensure responsible development. However, The architecture of an AI ecosystem consists of three layers: AI software supply chain, AI system, and operation infrastructure. It is challenging to show the contribution of each.
 
-One work that was proposed is the Responsible AI (RAI) Pattern Catalogue \cite{catalogue}, which takes a pattern-oriented approach to promoting RAI in practice. Instead of solely focusing on ethical principles or AI algorithms, this catalogue focuses on design patterns that practitioners can apply to ensure that their AI systems are responsible throughout the software development process. The catalogue is organized into three categories: 1) governance patterns to establish multi-level governance, 2) process patterns to establish trustworthy development processes, and 3) product patterns to integrate responsible design into AI systems. In addition, it focuses on all aspects of the ecosystem (industry-level, organization-level, and team-level) with the planning of the design and development tools to support the navigation and utilization of the RAI pattern catalogue.
+One work that was proposed is Responsible AI (RAI) Pattern Catalogue \cite{catalogue}, which takes a pattern-oriented approach to promoting RAI in practice. Instead of solely focusing on ethical principles or AI algorithms, this catalogue focuses on design patterns that practitioners can apply to ensure that their AI systems are responsible throughout the software development process. The catalogue is organized into three categories: 1) governance patterns to establish multi-level governance, 2) process patterns to establish trustworthy development processes, and 3) product patterns to integrate responsible design into AI systems. In addition, it focuses on all aspect of the ecosystem (industry-level, organization-level and team-level) without the planning of the design and the developement tools to support the navigation and utilisation of the RAI pattern catalogue.
 
 \begin{figure*}[htbp!!]
 	\centering
@@ -242,40 +242,23 @@ An XAI API, or Application Programming Interface, is a set of protocols and tool
 In a nutshell, XAI representation refers to the format in which XAI explanations are presented to the user, while an XAI API provides a set of protocols and tools for integrating XAI techniques into software applications and providing explanations for the decisions made by machine learning models. The choice of XAI representation and API will depend on the specific requirements of the use case and the target audience.
 \subsection{Decision Process}
 Incorporating an XAI API into the decision-making process at the organizational level can help stakeholders make informed decisions about whether to proceed with or stop a ML algorithm based on the transparency and fairness of the model. To make the XAI API interactive, SW Engineers and MLOps can add features that allow stakeholders to interact with the explanations generated by the API.
-\section{Case Study: Flexible XAI Service for Cloud AI Feature Contributions}
-Since the XRc invoked in MLOps can target many different MLOps pipelines and cannot be easily specified, it is essential to present a specific case study to demonstrate the usability of these techniques in MLOps. In this section, we will elaborate on the Flexible XAI Service for Cloud AI Feature case study that will pick one MLOps pipeline and show the effectiveness of XRc techniques in improving its transparency and fairness.
+
+\section{Case Study Summary}
+
+We elaborate on an XAI service for cloud AI and develop its XRc implementation as the case study to present the effectiveness of the XRc in improving the transparency and fairness of the machine learning model to the non-technical stakeholders (board members, executives, and managers). 
+As Fig.~\ref{MIICE} is shown, such XRc implementation takes over the pre-trained image classification model on Cloud AI Service and uses XAI techniques to explain and analyze the pre-trained model. It then further exposes its representation and API to enable the stakeholders to decide on the deployment phase. 
+At first, the model is identified as an image classification. 
+Then for the XAI techniques implementation, we select the Grad-CAM XAI method paired with an approximation model to obtain the explanations that approximate the cloud AI model.
+We further analyze the explanation result to gather and filter the information concerning the stakeholders.
+Finally, we develop the APIs to represent such information and XAI operations, allowing stakeholders to interact efficiently with those processes.
+
+
 \begin{figure*}[htbp!!]
 	\centering
 	\includegraphics[width=1.0\textwidth]{XAI_MT.png}
-	\caption{Mapping the Illustrated Integration of Cutting-Edge Cloud AI Services, State-of-the-Art Deep Learning Models, and Post Hoc Explainability Methods in the XRc Phase of MLOps.}
+	\caption{An XAI and RAI Connector (XRc) implementation case study for cloud-based image classification AI model}
 	\label{MIICE}
 \end{figure*}
-
-It is important to note that this case study will focus solely on the implementation, gathering and filtering, and representation and API \cite{TobyAPI} aspects of XRc phase in MLOps pipeline. While there are other components within the XRc phase, these sub-phases are considered to be the most critical elements within the XRc phase.
-
-\subsection{Mapping XAI Service Architecture Design and XRc MLOps phase}
-As depicted, the development of XAI operations as microservices resulted in a reference architecture composed of four layers: the user interface layer, the coordination center layer, the core microservice layer, and the data persistence layer. This reference architecture can be mapped to the XRc phase, as shown in Table \ref{Mapping}.
-\paragraph{User Interface} The XAI service architecture has a user interface that allows users to set up XAI tasks or connect them to pipelines. The interface offers three forms of access: a web portal, RESTful APIs, and a command line. The web portal includes features such as task configuration, explanation summaries, and data visualization. RESTful APIs support developers in building new XAI services and executing pipelines. The command line interface allows direct communication with the back-end server. These features support the Representation and API aspect of MLOps.
-\paragraph{Coordination Center} The coordination center in the XAI service architecture plays a crucial role in Gathering and Filtering in XRc Phase in the MLOps. The microservice management function is responsible for managing the life cycle of each microservice and documenting their endpoints and functional types. The XAI operation management includes a task executor that executes XAI tasks based on task sheets that contain information about the involved services, data set, and task parameters \cite{makinen}. This information is gathered and filtered by the coordination center to ensure that the correct microservices are utilized for each task. The data representation component retrieves information from the data persistence layer and presents it to the user, further supporting the Gathering and Filtering aspect of XRc Phase in MLOps.
-\paragraph{Microservice Layer} The encapsulation of diverse data sets, AI models, XAI methods, and evaluation metrics into microservices as described in the previous paragraph is a key aspect of the XAI Techniques Implementation subphase of the XRc phase in MLOps. The use of microservices simplifies the integration of these entities and supports the efficient execution of XAI tasks within the MLOps pipeline. The Data Processing, AI Model, XAI Method, and Evaluation microservices each play a specific role in supporting the implementation of XAI techniques in the XRc phase, making them crucial components of the XAI Techniques Implementation subphase of the overall MLOps process.
-\paragraph{Data Persistent Layer} The data persistence layer in the XAI service is responsible for managing the storage and retrieval of data sets, XAI operation data, explanation summaries, and evaluation results. This layer plays a crucial role in the XRc phase of MLOps by providing a unified system for storing and accessing the necessary information for XAI operations. The design of XAI provenance metadata is also introduced in a later section, further enhancing the efficiency and organization of the XAI process. The data persistence layer is a key component of both the XAI Techniques Implementation and Model Type Identification subphases of the XRc phase in MLOps. The ability to easily add new AI models, data sets, or XAI methods further underscores the importance of the data persistence layer in supporting the overall MLOps process.
-In the next section, we will delve deeper into the implementation of the Post Hoc XAI with feature contribution explanation, highlighting its practical applications and benefits in the XRc Phase of MLOps.
-\subsection{Post Hoc XAI Methods with Feature Contribution Explanation}
-Post-hoc XAI methods for feature influence and causality can be applied to computer vision AI services as they provide a way to understand how the deep learning models make their predictions. These methods can be used to approximate the internal workings of the AI models and provide insights into the contribution of each feature to the prediction result. This information can be useful for improving the accuracy of the models, as well as for building trust with users and stakeholders who may be concerned about the transparency of AI systems. Additionally, the availability of state-of-the-art deep learning models and XAI methods for computer vision in the literature makes it easier to adopt these methods for computer vision AI services.
-
-As depicted in Figure \ref{MIICE}, the Explanation Generation Operation and the Cloud AI Service are a part of the XAI Techniques Implementation. This makes sense since the process involves inputting images into a cloud-based AI service in the first branch, which outputs the prediction results. In the second branch, the images are processed by an approximation model such as ResNet or DenseNet \cite{resnet} , \cite{densnet}. XAI methods specific to the model \cite{Ramp} are then utilized to generate a salience map that highlights the most significant features of the image. This map is applied to the original image, creating augmented images that are then input into the cloud-based AI service. As a result, the prediction results from the cloud-based AI service on these augmented images will differ from the original prediction due to the changes in the features.
-
-Since the XAI techniques implementation has taken place, it is possible to do more gathering and filtering by using the computed values. This done through additional analysis of the impact of feature changes on the outcome. As such, A clear explanation can be generated and its reliability and coherence can be assessed based on prior research on explanation evaluation. The closer the predictions generated by the two models, i.e., the cloud-based AI service and the approximation models such as ResNet and DenseNet the more similarities there are in the features that influence their predictions.
-
-Finally, given that RESTful APIs provide the sole means of accessing most services, the combination of relevant components and processes shown in Figure \ref{MIICE} illustrate the type of services utilizing APIs specified on service endpoints. This serves as a significant factor in advocating for the implementation of microservices for XAI operations. This cleary a direct mapping to the XRc representation and API phase.
-\subsection{Reflection}
-As shown in Figure \ref{MIICE}, integrating an XRc phase between the ML Pipeline and Deployment phases is a good practice in order to ensure that AI models are explainable, transparent, and accountable. This XRc phase can involve various steps such as auditing the dataset, validating the model, analyzing the fairness and bias, and generating human-interpretable explanations for the model's predictions. In addition, integrating XRc decision processes into existing tools and workflows can be done in several ways, depending on the specific use case and the tools and technologies involved. Here are some possible approaches:
-\begin{itemize}
-	\item API integration: An API can be used to automatically generate human-interpretable explanations of the model's predictions, which can then be integrated into existing applications or dashboards. This can involve setting up an API endpoint that receives input data, passes it through the ML model, and returns the predictions along with explanations for each prediction.
-	\item Email with survey response: Integrating XRc decision processes into email with survey response can involve setting up an automated email workflow that sends out surveys to stakeholders and collects feedback on the model's predictions. The survey responses can be analyzed and used to improve the model's performance, and the updated model can be integrated back into the decision-making process.
-	\item Knowledge base: Incorporating a knowledge base into the XRc decision process can help to provide stakeholders with a centralized source of information that they can reference at any time. This can be particularly useful for stakeholders who may not have a deep understanding of machine learning or the specific model being used.
-\end{itemize}
-In each of these approaches, it's important to ensure that the XRc decision process is integrated seamlessly into the existing tools and workflows, and that the output is presented in a way that is easily understandable and actionable for stakeholders. It's also important to ensure that the XRc decision process is audited regularly to ensure that it continues to meet the organization's ethical and responsible standards.
 
 \section{Conclusion}
 The connection between team-level governance patterns and organization-level patterns can be effectively established through the use of MLOps. The XRc phase provides a clear connection between the two levels of governance, allowing for the navigation and utilization of both patterns. The Design Explanation Microservices and Provenance case study serves as a practical example of this principle-to-practice multi-level governance pattern, showcasing how XAI techniques can be effectively implemented in real-world scenarios to support both team and organizational governance goals. By utilizing the XRc phase in MLOps and examining the results of the case study, organizations can gain a better understanding of how to bridge the gap between team-level and organizational-level governance in a way that is both effective and efficient.
