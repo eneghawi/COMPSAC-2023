@@ -63,13 +63,13 @@ xxxxxxxxxxxxxxxxxxxxxxxxx}
 \end{abstract}
 
 \begin{IEEEkeywords}
-AI, AI ethics, trustworthy AI, AIMLOps, AIOps, software engineering, software architecture, pattern, best practice
+AI, AI ethics, trustworthy AI, XAI, AIMLOps, AIOps, software engineering, software architecture, pattern, best practice
 \end{IEEEkeywords}
 
 \section{Introduction}
 Aritificial Intelligence (AI) reshaped our lives, helped people make better predictions and take more informed and wise decisions. However, these high tech are still in there infancy, and there remains much promise for AI to promote innovation and address global challenges that people face.
 
-Consecutively, ethical concerns and anxieties are fuelling around AI \cite{DBLP}. There are lots of enquiries on the trustworthiness and adoption of AI systems, including concerns about exacerbating inequality, digital divide, climate change and market concentration. Additionally, there are concerns that the use of AI may compromise human rights and values such as privacy. To address these concerns and ensure the responsible development and use of AI, a collaborative effort involving multiple stakeholders and international cooperation issued guidelines and ethical principles. Despite the creation of ethical guidelines for AI development inside organization, it can be challenging for developers to apply these principles in practical situations. These principles are often abstract and may not provide clear direction for specific implementation \cite{abs-2111-09478}. Therefore, more specific and actionable guidelines are needed to assist developers in implementing ethical considerations in their AI systems. It is important to bridge the gap between ethical principles and the algorithms used in AI systems to ensure responsible development. However, The architecture of an AI ecosystem consists of three layers: AI software supply chain, AI system, and operation infrastructure. It is challenging to show the contribution of each.
+Consecutively, ethical concerns and anxieties are fuelling around AI \cite{DBLP}. There are lots of enquiries on the trustworthiness and adoption of AI systems, including concerns about exacerbating inequality, digital divide, climate change and market concentration. Additionally, there are concerns that the use of AI may compromise human rights and values such as privacy. To address these concerns and ensure the responsible development and use of AI, a collaborative effort involving multiple stakeholders and international cooperation issued guidelines and ethical principles. Despite the creation of ethical guidelines for AI development inside organization, it can be challenging for developers to apply these principles in practical situations. These principles are often abstract and may not provide clear direction for specific implementation \cite{abs-2111-09478}. Therefore, more specific and actionable guidelines are needed to assist developers in implementing ethical considerations in their AI systems. XAI, or Explainable Artificial Intelligence, can provide clear explanations for the decision-making process of AI systems. This understanding can help build trust and confidence in the system and its developers. In addition to transparency and accountability, XAI can also help ensure that AI systems are non-discriminatory. It is important to bridge the gap between ethical principles and the algorithms used in AI systems to ensure responsible development. However, The architecture of an AI ecosystem consists of three layers: AI software supply chain, AI system, and operation infrastructure. It is challenging to show the contribution of each.
 
 One work that was proposed is Responsible AI (RAI) Pattern Catalogue \cite{catalogue}, which takes a pattern-oriented approach to promoting RAI in practice. Instead of solely focusing on ethical principles or AI algorithms, this catalogue focuses on design patterns that practitioners can apply to ensure that their AI systems are responsible throughout the software development process. The catalogue is organized into three categories: 1) governance patterns to establish multi-level governance, 2) process patterns to establish trustworthy development processes, and 3) product patterns to integrate responsible design into AI systems. In addition, it focuses on all aspect of the ecosystem (industry-level, organization-level and team-level) without the planning of the design and the developement tools to support the navigation and utilisation of the RAI pattern catalogue.
 
@@ -126,9 +126,8 @@ By introducing XRc into the MLOps, organizations can bridge the gap between team
 
 \section{Background on MLOps Workflow Stages}
 Constructing a machine learning pipeline can be a challenging endeavor. The pipeline is often constructed incrementally with the assistance of tools that have limited integration capabilities. MLOps seeks to streamline this process by automating the pipeline. It serves as a combination of machine learning, data engineering, and DevOps practices, essentially streamlining and accelerating the operationalization of an ML model (including building, testing, and releasing) by incorporating DevOps practices into the process. Determining which stage should be executed by which actor in the MLOps pipeline is not a straightforward task, and often requires multiple iterations to arrive at a suitable solution. However, through the examination of multiple studies, four major stages have been identified. Subsequently, we will outline each component in detail for that particular stage.
-\paragraph{Data Management Phase} Maintaining the overall quality of project-specific data can be challenging due to restrictions posed by domain-specific limitations \cite{maydanchik2007data}. These limitations can affect the consistency of the relationships between attributes, the accuracy of historical records, and the reliability of state transitions \cite{taleb2018big}. To ensure that the data models are accurate and aligned with the goals and KPIs of the project, subject-specific experts such as domain experts play a crucial role . These experts provide the necessary problem-specific questions and objectives, as well as KPIs for the data models. Additionally, they are responsible for validating the potential data and machine learning models to ensure that they meet the requirements of the project.
+\paragraph{Data Management Phase} It can be challenging due to domain-specific limitations \cite{maydanchik2007data} that affect relationships between attributes, accuracy of historical records, and reliability of state transitions \cite{taleb2018big}. Domain experts play a crucial role in ensuring that data models align with project goals and KPIs. They validate potential data and machine learning models to ensure project requirements are met. Some organizations employ Data Stewardship to oversee data quality management and governance, with defined roles such as chief, business, and technical data stewards, as well as a data quality board \cite{mons2018data}.
 
-In some organizations, Data Stewardship is a key entity responsible for overseeing data throughout the various stages of a project. With a focus on Data Quality Management and governance, various roles such as chief, business, and technical data stewards, as well as a data quality board, have been defined to guide the data governance framework of the organization \cite{mons2018data}. The Data Stewardship plays an important role in maintaining resulting data, particularly when planning or wrapping up a project, often through a data management plan.
 \paragraph{ML Preparation Phase} This set of functions in the ML preparation stage deals with classic ML preprocessing tasks. Data quality is important and ensured by various roles with the help of data engineers and stewards. Implementing the ML model requires collaboration between data scientists, domain experts, and those responsible for defining the problem within the domain \cite{treveil2020introducing}. In summary, here are the functions in the ML preparation phase:
 \begin{itemize}
 	\item ML Data Acquisition: The ML pipeline is fed with relevant data based on the prior declared data management plan and selection by the data engineer.
@@ -171,15 +170,14 @@ For example, in the scikit-learn library \cite{pedregosa2011scikit}, the use of 
 	\item Examining the model's performance: This involves evaluating the model's performance on a known dataset and determining the type of model based on the performance metrics and results obtained.
 \end{itemize}
 
-The two dynamic methods can be useful in different scenarios, and the choice of method will depend on the specific requirements of the use case. For example, if the access to the model's API or functions is given, examining the API or functions might be the easiest and most straightforward way to determine the type of model. If there is no access to the API or functions, evaluating the model's performance on a known dataset might be the only option available.
+The choice of dynamic method depends on the specific requirements of the use case. For example, examining the API or functions can be easiest if they are accessible, whereas evaluating the model's performance on a known dataset may be the only option if there is no API or function access.
 
 \subsection{XAI techniques Implementation}
 XAI techniques is implemented by AI/MLOps engineers taking into consideration the ML algorithm and the different audiences. It may require a trade-off between technical detail and simplicity, transparency and fairness, and other factors.
 \paragraph{Audience Evaluation} While the audiences is mainly at the organization level, AI/MLOps Engineers can categories their audience into two:
 \begin{itemize}
-	\item End Users: It may require simple and understandable explanations of the decisions made by a machine learning model. XAI techniques designed for this audience might include rule-based systems, decision trees, or prototype-based explanations that provide examples that are representative of the decisions made by a machine learning model.
-	\item Regulators: It may require explanations of the decisions made by a machine learning model to ensure that the model is fair, transparent, and in compliance with regulations and ethical standards. XAI techniques designed for this audience might include model-agnostic techniques, such as Local Interpretable Model-Agnostic Explanation (LIME) \cite{lime} or SHapley Additive
-exPlanation (SHAP) \cite{shap}, that provide explanations for the predictions made by any machine learning model.
+\item End users require simple and understandable explanations of the decisions made by a machine learning model. XAI techniques for this audience might include rule-based systems, decision trees, or prototype-based explanations.
+\item Regulators require explanations of the decisions made by a machine learning model to ensure compliance with regulations and ethical standards. Model-agnostic techniques like Local Interpretable Model-Agnostic Explanation (LIME) \cite{lime} or SHapley Additive exPlanation (SHAP) \cite{shap} can provide explanations for the predictions made by any machine learning model.
 \end{itemize}
 \paragraph{ML Algorithm Evaluation} It is not necessary for an AI/MLOps engineer to have a deep understanding of the specific ML algorithm in order to choose an XAI method. However, having a general understanding of the ML algorithm and its strengths and weaknesses can be helpful in choosing an appropriate XAI method. In addition, since some XAI methods can be used and integrated together, AI/MLOps engineer have to consider the broad range of XAI techniques. Those methods can be categorized into the following categories \cite{XAIREF}:
 Model-Agnostic Techniques: Model-agnostic XAI techniques are techniques that can be applied to any machine learning model, regardless of the underlying algorithm or architecture. Examples of model-agnostic XAI techniques include LIME and SHAP.
@@ -200,34 +198,34 @@ These categories are not mutually exclusive and some XAI techniques may fall int
 	\item Filter XAI methods: Once a set of XAI methods is gathered, filter the methods based on the specific requirements to the use case. Consider factors such as the complexity of the method, the amount of computational resources required, and the amount of technical detail that is appropriate for the audience.
 	\item Combine XAI methods: After filtering the XAI methods, MLOps Engineers might consider combining methods to provide a more comprehensive and effective explanation of the decisions made by the machine learning model. They can use techniques such as multi-modal explanations, ensemble explanations, or hybrid explanations to combine XAI methods.
 \end{itemize}
-\begin{table*}[htbp]
-\caption{Mapping of XAI Service Architecture Design to XRc MLOps Phase}
-\begin{center}
-\label{Mapping}
-\begin{tabular}{|l|l|l|}
-\hline
- & & \\
-\textbf{XAI Microservices \& Provenance Ref} & \textbf{Components of XAI Microservices}  & \textbf{XRc Sub-phase Mapping} \\
- & & \\ \hline
-\multirow{3}{*}{\textbf{User Interface}} & RESTful API & \multirow{3}{*}{Representation and API} \\
- & Web Portal & \\
- & Command Line & \\ \hline 
-\multirow{4}{*}{\textbf{Coordination Center}} & \multirow{2}{*}{Microservice Management} & \multirow{4}{*}{Gathering and Filtering} \\
- & & \\
- & \multirow{2}{*}{XAI Operation Management} & \\
- & & \\ \hline 
-\multirow{5}{*}{\textbf{Microservice Layer}} & Data Representation & \multirow{5}{*}{XAI Techniques Implementation} \\
- & Data Processing & \\
- & AI Model & \\
- & XAI Method & \\
- & Evaluation Metric & \\ \hline
-\multirow{4}{*}{\textbf{Data Persistent Layer}} & Model Explanation Result & \multirow{2}{*}{XAI Techniques Implementation} \\
- & XAI Evaluation Result & \\ \cline{2-3} 
- & Machine Learning Data & \multirow{2}{*}{Model Type Identification} \\
- & Provenance Data & \\ \hline
-\end{tabular}
-\end{center}
-\end{table*}
+% \begin{table*}[htbp]
+% \caption{Mapping of XAI Service Architecture Design to XRc MLOps Phase}
+% \begin{center}
+% \label{Mapping}
+% \begin{tabular}{|l|l|l|}
+% \hline
+%  & & \\
+% \textbf{XAI Microservices \& Provenance Ref} & \textbf{Components of XAI Microservices}  & \textbf{XRc Sub-phase Mapping} \\
+%  & & \\ \hline
+% \multirow{3}{*}{\textbf{User Interface}} & RESTful API & \multirow{3}{*}{Representation and API} \\
+%  & Web Portal & \\
+%  & Command Line & \\ \hline 
+% \multirow{4}{*}{\textbf{Coordination Center}} & \multirow{2}{*}{Microservice Management} & \multirow{4}{*}{Gathering and Filtering} \\
+%  & & \\
+%  & \multirow{2}{*}{XAI Operation Management} & \\
+%  & & \\ \hline 
+% \multirow{5}{*}{\textbf{Microservice Layer}} & Data Representation & \multirow{5}{*}{XAI Techniques Implementation} \\
+%  & Data Processing & \\
+%  & AI Model & \\
+%  & XAI Method & \\
+%  & Evaluation Metric & \\ \hline
+% \multirow{4}{*}{\textbf{Data Persistent Layer}} & Model Explanation Result & \multirow{2}{*}{XAI Techniques Implementation} \\
+%  & XAI Evaluation Result & \\ \cline{2-3} 
+%  & Machine Learning Data & \multirow{2}{*}{Model Type Identification} \\
+%  & Provenance Data & \\ \hline
+% \end{tabular}
+% \end{center}
+% \end{table*}
 \subsection{Representation and API}
 XAI representation refers to the format in which the explanations generated by XAI techniques are presented to the user. The representation can be in the form of text, visualizations, or other forms of data, and it depends on the specific requirements of the use case and the target audience.
 
@@ -239,6 +237,13 @@ An XAI API, or Application Programming Interface, is a set of protocols and tool
 	\item Feedback Mechanisms: Provide feedback mechanisms that allow stakeholders to provide feedback on the explanations generated by the XAI API. This can include simple feedback forms, or more complex mechanisms, such as a feedback rating system. This can help organizations to improve the quality of the explanations generated by the API, and to better meet the needs of stakeholders.
 \end{itemize}
 
+\begin{figure*}[htbp!!]
+	\centering
+	\includegraphics[width=1.0\textwidth]{XAI_MT.png}
+	\caption{An XAI and RAI Connector (XRc) implementation case study for cloud-based image classification AI model}
+	\label{MIICE}
+\end{figure*}
+
 In a nutshell, XAI representation refers to the format in which XAI explanations are presented to the user, while an XAI API provides a set of protocols and tools for integrating XAI techniques into software applications and providing explanations for the decisions made by machine learning models. The choice of XAI representation and API will depend on the specific requirements of the use case and the target audience.
 \subsection{Decision Process}
 Incorporating an XAI API into the decision-making process at the organizational level can help stakeholders make informed decisions about whether to proceed with or stop a ML algorithm based on the transparency and fairness of the model. To make the XAI API interactive, SW Engineers and MLOps can add features that allow stakeholders to interact with the explanations generated by the API.
@@ -246,19 +251,9 @@ Incorporating an XAI API into the decision-making process at the organizational 
 \section{Case Study Summary}
 
 We elaborate on an XAI service for cloud AI and develop its XRc implementation as the case study to present the effectiveness of the XRc in improving the transparency and fairness of the machine learning model to the non-technical stakeholders (board members, executives, and managers). 
-As Fig.~\ref{MIICE} is shown, such XRc implementation takes over the pre-trained image classification model on Cloud AI Service and uses XAI techniques to explain and analyze the pre-trained model. It then further exposes its representation and API to enable the stakeholders to decide on the deployment phase. 
-At first, the model is identified as an image classification. 
-Then for the XAI techniques implementation, we select the Grad-CAM XAI method paired with an approximation model to obtain the explanations that approximate the cloud AI model.
-We further analyze the explanation result to gather and filter the information concerning the stakeholders.
-Finally, we develop the APIs to represent such information and XAI operations, allowing stakeholders to interact efficiently with those processes.
+As Fig.~\ref{MIICE} is shown, such XRc implementation takes over the pre-trained image classification model on Cloud AI Service and uses XAI techniques to explain and analyze the pre-trained model. It then further exposes its representation and API to enable the stakeholders to decide on the deployment phase. At first, the model is identified as an image classification. Then for the XAI techniques implementation, we select the Grad-CAM XAI method paired with an approximation model to obtain the explanations that approximate the cloud AI model. We further analyze the explanation result to gather and filter the information concerning the stakeholders. Finally, we develop the APIs to represent such information and XAI operations, allowing stakeholders to interact efficiently with those processes.
 
 
-\begin{figure*}[htbp!!]
-	\centering
-	\includegraphics[width=1.0\textwidth]{XAI_MT.png}
-	\caption{An XAI and RAI Connector (XRc) implementation case study for cloud-based image classification AI model}
-	\label{MIICE}
-\end{figure*}
 
 \section{Conclusion}
 The connection between team-level governance patterns and organization-level patterns can be effectively established through the use of MLOps. The XRc phase provides a clear connection between the two levels of governance, allowing for the navigation and utilization of both patterns. The Design Explanation Microservices and Provenance case study serves as a practical example of this principle-to-practice multi-level governance pattern, showcasing how XAI techniques can be effectively implemented in real-world scenarios to support both team and organizational governance goals. By utilizing the XRc phase in MLOps and examining the results of the case study, organizations can gain a better understanding of how to bridge the gap between team-level and organizational-level governance in a way that is both effective and efficient.

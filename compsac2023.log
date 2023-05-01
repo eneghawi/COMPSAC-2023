@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.4.30)  30 APR 2023 18:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.4.30)  1 MAY 2023 03:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -439,40 +439,45 @@ Overfull \hbox (2.47778pt too wide) in paragraph at lines 94--98
 <ML-OPS_with_XAI.png, id=24, 2258.4375pt x 1529.715pt>
 File: ML-OPS_with_XAI.png Graphic file (type png)
 <use ML-OPS_with_XAI.png>
-Package pdftex.def Info: ML-OPS_with_XAI.png  used on input line 141.
+Package pdftex.def Info: ML-OPS_with_XAI.png  used on input line 140.
 (pdftex.def)             Requested size: 412.80157pt x 279.58498pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 2261) in paragraph at lines 148--149
+Underfull \hbox (badness 2261) in paragraph at lines 147--148
 \OT1/lmr/m/n/10 the prob-lem (su-per-vised, un-su-per-vised, or semi-
  []
 
 [4]
-Underfull \hbox (badness 2261) in paragraph at lines 178--180
+Underfull \hbox (badness 2261) in paragraph at lines 177--179
  \OT1/lmr/m/it/10 a) Au-di-ence Eval-u-a-tion: [][] \OT1/lmr/m/n/10 While the a
 u-di-ences is
  []
 
+
+Underfull \hbox (badness 1448) in paragraph at lines 180--181
+\OT1/lmr/m/n/10 by a ma-chine learn-ing model to en-sure com-pli-
+ []
+
 [5 <./ML-OPS_with_XAI.png>]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 207.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 207.
- [6]
-<XAI_MT.png, id=35, 7988.84625pt x 1931.215pt>
+<XAI_MT.png, id=32, 7988.84625pt x 1931.215pt>
 File: XAI_MT.png Graphic file (type png)
 <use XAI_MT.png>
-Package pdftex.def Info: XAI_MT.png  used on input line 258.
+Package pdftex.def Info: XAI_MT.png  used on input line 242.
 (pdftex.def)             Requested size: 516.0pt x 124.70828pt.
- (./compsac2023.bbl [7]
+ [6] (./compsac2023.bbl
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 28.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 28.
+ [7 <./XAI_MT.png>]
 Underfull \hbox (badness 6284) in paragraph at lines 211--215
 []\OT1/lmr/m/n/8 F. Pe-dregosa, G. Varo-quaux, A. Gram-fort, V. Michel,
  []
 
-[8 <./XAI_MT.png>]
+
 Underfull \hbox (badness 1881) in paragraph at lines 228--231
 []\OT1/lmr/m/n/8 A. Per-era, A. Aleti, C. Tan-tithamtha-vorn, J. Jiarpakdee,
  []
@@ -494,31 +499,32 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[9
+[8] (./compsac2023.aux)
 
-] (./compsac2023.aux) ) 
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4881 strings out of 478287
- 76996 string characters out of 5849289
- 386580 words of memory out of 5000000
- 22987 multiletter control sequences out of 15000+600000
- 648032 words of font info for 133 fonts, out of 8000000 for 9000
+ 4879 strings out of 478287
+ 76973 string characters out of 5849289
+ 393409 words of memory out of 5000000
+ 22985 multiletter control sequences out of 15000+600000
+ 645284 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,62p,1426b,307s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/sha
-re/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/
-lm-rmsc.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf
-/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi1
-0.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb>
-</usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmsy7.pfb>
-Output written on compsac2023.pdf (9 pages, 2666288 bytes).
+ 55i,8n,62p,1705b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/sha
+re/texmf/fonts/type1/public/lm/lmbx9.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+r12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fon
+ts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb>
+</usr/share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmsy7.pfb>
+Output written on compsac2023.pdf (8 pages, 2635902 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 91 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
