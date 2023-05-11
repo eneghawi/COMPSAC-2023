@@ -21,7 +21,7 @@
 \begin{document}
 \nocite{*}
 
-\title{Linking Team-level and Organization-level Governance in MLOps through XAI and RAI Connector  \\
+\title{Linking Team-level and Organization-level Governance in Machine Learning Operations through Explainable AI and Responsible AI Connector  \\
 % {\footnotesize \textsuperscript{*}Note: Sub-titles are not captured in Xplore and
 % should not be used}
 % \thanks{Identify applicable funding agency here. If none, delete this.}
@@ -79,7 +79,7 @@ One proposed work is Responsible AI (RAI) Pattern Catalogue \cite{catalogue}, wh
 	\caption{A Deep Dive into the MLOps Workflow with the XRc Phase: Understanding Key Actor Roles and Responsibilities}
 	\label{XAIRAIorg}
 \end{figure*}
-In this paper, we take a different approach by focusing on the organization-level patterns at the system level rather than just the ethical principles or AI algorithms. This approach aims to integrate responsible design in organizations into final AI products by looking at the MLOps in a bigger picture and the design patterns that reshape the system. This is done by bridging the gap between the organization-level and team-level and facilitating navigation using MLOps. We start by looking at the main two levels of an organization in addition to the team-level and examine the currently available methods \cite{Shneiderman, ShneidermanRespo, Jana, Hussain, roadmap}. Then we make the links on where those methods meet and create the best practices using the multi-level governance patterns at the organization-level. The overarching research question that has guided this study is:
+In this paper, we take a different approach by focusing on the organization-level patterns at the system level rather than just the ethical principles or AI algorithms. This approach aims to integrate responsible design in organizations into final AI products by looking at the Machine Learning Operations (MLOps) in a bigger picture and the design patterns that reshape the system. This is done by bridging the gap between the organization-level and team-level and facilitating navigation using MLOps. We start by looking at the main two levels of an organization in addition to the team-level and examine the currently available methods \cite{Shneiderman, ShneidermanRespo, Jana, Hussain, roadmap}. Then we make the links on where those methods meet and create the best practices using the multi-level governance patterns at the organization-level. The overarching research question that has guided this study is:
 
 % \begin{figure*}[h!]
 % 	\centering
@@ -126,7 +126,7 @@ In order to build up the links of the multi-level governance for RAI systems wit
 
 The illustration provides a comprehensive overview of the stakeholders involved and the methods being utilized, offering insight into the strengths and limitations of the current methods. In addition, the use of XAI and RAI connectors, as shown in the illustration, can further optimize the operation of the current methods and support the efforts of the stakeholders. Utilizing these connectors can provide a more comprehensive and user-friendly experience, leading to improved outcomes and increased success for the organization and its teams.
 
-Furthermore, we evaluated an examination of Machine Learning Operations (MLOps) technologies and tools for each stage of the project pipeline and the roles involved \cite{mlops-without}. In this examination, we identified the weakness of the method being used as the absence of XAI and RAI. The lack of XAI and RAI in the method being used can result in unintended consequences and decreased trust in the system. Therefore, it is essential to consider incorporating these elements into any machine learning project to ensure accountability and transparency. To the best of our knowledge, there is no standard for implementing the multi-level governance pattern for RAI with XAI in MLOps.
+Furthermore, we evaluated an examination of MLOps technologies and tools for each stage of the project pipeline and the roles involved \cite{mlops-without}. In this examination, we identified the weakness of the method being used as the absence of XAI and RAI. The lack of XAI and RAI in the method being used can result in unintended consequences and decreased trust in the system. Therefore, it is essential to consider incorporating these elements into any machine learning project to ensure accountability and transparency. To the best of our knowledge, there is no standard for implementing the multi-level governance pattern for RAI with XAI in MLOps.
 
 The XAI and RAI connector (XRc) can play a crucial role in connecting team-level governance to organization-level governance implementation in MLOps. By providing clear and understandable explanations for the decisions made by machine learning models, XAI helps to increase transparency and accountability at the team level. This can be especially important in complex projects involving multiple stakeholders and team members. RAI, on the other hand, helps to ensure that ethical and moral considerations are taken into account throughout the entire MLOps pipeline. This can involve creating policies and guidelines for RAI and conducting risk assessments and impact evaluations. By incorporating RAI into MLOps, organizations can ensure that their use of AI aligns with their values and meets regulatory requirements.
 
@@ -259,9 +259,9 @@ In a nutshell, XAI representation refers to the format in which XAI explanations
 \subsection{Decision Process}
 Incorporating an XAI API into the decision-making process at the organizational level can help stakeholders make informed decisions about whether to proceed with or stop an ML algorithm based on the transparency and fairness of the model. To make the XAI API interactive, SW Engineers and MLOps can add features that allow stakeholders to interact with the explanations generated by the API.
 
-\section{Case Study Summary}
+\section{Motivation Concept Scenario}
 
-We elaborate on an XAI service for cloud AI and develop its XRc implementation as the case study to present the effectiveness of the XRc in improving the transparency and fairness of the machine learning model to the non-technical stakeholders (board members, executives, and managers). 
+We elaborate on an XAI service for cloud AI and develop its XRc implementation as a motivation concept scenario to present the effectiveness of the XRc in improving the transparency and fairness of the machine learning model to the non-technical stakeholders (board members, executives, and managers).
 As Fig.~\ref{MIICE} is shown, the entry point and the exit point are ML Pipeline Phase and Deployment Phase in Figure \ref{XRc-phase}, which makes it our XRc. Such XRc implementation takes over the pre-trained image classification model on Cloud AI Service and uses XAI techniques to explain and analyze the pre-trained model. It then further exposes its representation and API to enable the stakeholders to decide on the deployment phase. At first, the model is identified as an image classification. Then for the XAI techniques implementation, we select the Grad-CAM XAI method paired with an approximation model to obtain the explanations that approximate the cloud AI model. We further analyze the explanation result to gather and filter the information concerning the stakeholders. Finally, we develop the APIs to represent such information and XAI operations, allowing stakeholders to interact efficiently with those processes.
 
 

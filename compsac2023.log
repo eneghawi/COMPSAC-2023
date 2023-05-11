@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.4.30)  4 MAY 2023 09:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.4.30)  11 MAY 2023 08:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -430,11 +430,8 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 97.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2]
-Underfull \vbox (badness 6364) has occurred while \output is active []
-
- [3 <./Organization.png>]
-<ML-OPS_with_XAI.png, id=24, 2258.4375pt x 1529.715pt>
+) [2] [3 <./Organization.png>]
+<ML-OPS_with_XAI.png, id=25, 2258.4375pt x 1529.715pt>
 File: ML-OPS_with_XAI.png Graphic file (type png)
 <use ML-OPS_with_XAI.png>
 Package pdftex.def Info: ML-OPS_with_XAI.png  used on input line 149.
@@ -506,7 +503,7 @@ Before submitting the final camera ready copy, remember to:
 Here is how much of TeX's memory you used:
  4879 strings out of 478287
  76973 string characters out of 5849289
- 394747 words of memory out of 5000000
+ 394791 words of memory out of 5000000
  22985 multiletter control sequences out of 15000+600000
  645284 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -521,7 +518,7 @@ fb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr
 /share/texmf/fonts/type1/public/lm/lmri8.pfb></usr/share/texmf/fonts/type1/publ
 ic/lm/lmsy7.pfb>
-Output written on compsac2023.pdf (8 pages, 2664744 bytes).
+Output written on compsac2023.pdf (8 pages, 2665130 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream
